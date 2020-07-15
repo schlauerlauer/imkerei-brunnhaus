@@ -54,6 +54,9 @@ params:
     - title: Ungespritzt
       text: 'Ungespritzte und vielfältige Pollen- und Nektarquellen stehen so meinen Bienen über das Jahr zur Verfügung wie z. B. Weide, Märzenbecher, Weißdorn, Kirschpflaume, Kirsche, Apfel, Felsenbirne, Löwenzahn, Roßkastanie, Linde, Natterkopf, Alpenclematis, Wildrosen und viele Wildblumen am Ufer der Isar.'
       icon: flower-outline
+    - title: Anfahrt
+      text: An der Isar 2, 82049 Pullach im Isartal
+      icon: map-marker
   section3:
     title:
     subtitle:
