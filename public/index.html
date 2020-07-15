@@ -391,17 +391,25 @@
         </div>
       </div>
     </div>
+<script src="/alertify.js"></script>
+<link rel="stylesheet" type="text/css" href="/alertify.css">
 <script>
 function sendWebhook() {
     let xhttp = new XMLHttpRequest();
     let name = document.getElementById("nachricht-name").value;
     let mail = document.getElementById("nachricht-mail").value;
     let nachricht = document.getElementById("nachricht").value;
-    xhttp.open("POST", "https://home.brunnhaus.de/api/webhook/honig.brunnhaus", true);
-    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhttp.send("name=" + name + "&mail=" + mail + "&nachricht=" + nachricht);
-    alert("Vielen Dank für deine Nachricht!");
-    window.location.href = "/"; 
+    if (name != "" && mail != "" && nachricht != "") {
+        xhttp.open("POST", "https://home.brunnhaus.de/api/webhook/honig.brunnhaus", true);
+        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhttp.send("name=" + name + "&mail=" + mail + "&nachricht=" + nachricht);
+        alertify.success("Vielen Dank für deine Nachricht!");
+        document.getElementById("nachricht-name").value = "";
+        document.getElementById("nachricht-mail").value = "";
+        document.getElementById("nachricht").value = "";
+    } else {
+        alertify.error("Bitte alle Felder ausfüllen.");
+    }
 }
 </script>
 </section>
