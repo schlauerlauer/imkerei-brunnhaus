@@ -23,7 +23,7 @@ params:
     sizes: [400,600]
   hero:
     title: Imkerei Brunnhaus
-    subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip"
+    subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
     image: favicon.png
     clientlogos:
       - honigtrip_deckel
