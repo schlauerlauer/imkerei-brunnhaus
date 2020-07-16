@@ -26,24 +26,30 @@ params:
     subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip"
     image: favicon.png
     clientlogos:
-      - supersommer_deckel
-      - sommerbär_deckel
       - honigtrip_deckel
+      - sommerbär_deckel
+      - frühlingsbär_deckel
+      - supersommer_deckel
+      - fetterfrühling_deckel
   section1:
     title: Honigsorten
-    subtitle: mit den schönsten Etiketten
+    subtitle: mit den allerschönsten Etiketten
     tiles:
-    - title: Super Sommer
-      icon: supersommer
-      text: Der Sommerhonig
-    - title: Sommer Bär
-      icon: sommerbär
-      text: Der Sommerhonig vom Imkerpaten
     - title: Honig Trip
       icon: honigtrip 
-      text: Jetzt neu! Der Frühlingshonig
-      url: /
-      buttonText: Get started
+      text: Frühlingsblütenhonig 2020
+    - title: Sommer Bär
+      icon: sommerbär
+      text: Sommertracht 2019 (R. Seidl)
+    - title: Frühlingsbär
+      icon: frühlingsbär
+      text: Frühlingsblütenhonig 2019 (R. Seidl)
+    - title: Super Sommer
+      icon: supersommer
+      text: Sommertracht 2019
+    - title: Fetter Frühling
+      icon: fetterfrühling
+      text: Frühlingshonig 2019
   section2:
     title: Unser Isartal Honig
     subtitle: Imkerei Brunnhaus
@@ -60,7 +66,7 @@ params:
   section3:
     title:
     subtitle:
-    image: bees.jpg
+    image: floß.jpg
   section4:
     title: Ein paar Eindrücke
     subtitle: Von unseren Bienen
