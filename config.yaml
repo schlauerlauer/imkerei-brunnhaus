@@ -75,7 +75,7 @@ params:
     image3: blume.jpg
     clients:
     - name: Ditmar
-      quote: "HonigTrip ist jetzt frisch geschleudert!"
+      quote: "Der Sommerhonig 'Honig Trip' ist jetzt frisch geschleudert!"
       job: Hobbyimker
       img: 2
     - name: Henny
