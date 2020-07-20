@@ -77,7 +77,7 @@ params:
     - name: Ditmar
       quote: "Der Sommerhonig 2020 'Super Sommer' ist jetzt frisch geschleudert!"
       job: Hobbyimker
-      img: 2
+      img: d
     - name: Henny
       quote: "Meine Lieblingshonige!"
       job: Studentin
