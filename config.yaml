@@ -66,13 +66,13 @@ params:
   section3:
     title:
     subtitle:
-    image: floß.jpg
+    image: biene.jpg
   section4:
     title: Ein paar Eindrücke
     subtitle: Von unseren Bienen
     image1: kästen.jpg
     image2: gläser.jpg
-    image3: biene.jpg
+    image3: floß.jpg
     clients:
     - name: Ditmar
       quote: "Der Sommerhonig 'Honig Trip' ist jetzt frisch geschleudert!"
