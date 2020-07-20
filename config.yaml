@@ -75,7 +75,7 @@ params:
     image3: floß.jpg
     clients:
     - name: Ditmar
-      quote: "Der Sommerhonig 'Honig Trip' ist jetzt frisch geschleudert!"
+      quote: "Der Sommerhonig 2020 'Super Sommer' ist jetzt frisch geschleudert!"
       job: Hobbyimker
       img: 2
     - name: Henny
