@@ -77,11 +77,11 @@ params:
     - name: Ditmar Unger
       quote: "Ich bin Hobbyimker und hier steht nur quatsch."
       job: Hobbyimker
-      img: 1
-    - name: Hans Dampf
-      quote: "Bester Honig aler Zeiten."
-      job: Schleimer
       img: 2
+    - name: Henny
+      quote: "Meine Lieblingshonige!"
+      job: Studentin
+      img: 1
     - name: Hulan
       quote: "Seht euch die geilen Etiketten an!"
       job: Student
