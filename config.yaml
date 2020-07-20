@@ -74,8 +74,8 @@ params:
     image2: gläser.jpg
     image3: blume.jpg
     clients:
-    - name: Ditmar Unger
-      quote: "Ich bin Hobbyimker und hier steht nur quatsch."
+    - name: Ditmar
+      quote: "HonigTrip ist jetzt frisch geschleudert!"
       job: Hobbyimker
       img: 2
     - name: Henny
