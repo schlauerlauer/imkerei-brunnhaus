@@ -33,23 +33,23 @@ params:
       - fetterfrühling_deckel
   section1:
     title: Honigsorten
-    subtitle: mit den allerschönsten Etiketten
+    subtitle: Der leckere Honig aus dem Isartal mit den coolsten Etiketten
     tiles:
-    - title: Honig Trip
+    - title: Honig Trip '20
       icon: honigtrip 
-      text: Frühlingsblütenhonig 2020
-    - title: Sommer Bär
+      text: Raps, Weide, Obst, Ahorn, Himbeere
+    - title: Sommer Bär '19
       icon: sommerbär
-      text: Sommertracht 2019 (R. Seidl)
-    - title: Frühlingsbär
+      text: Imker R. Seidl
+    - title: Frühlings Bär '19
       icon: frühlingsbär
-      text: Frühlingsblütenhonig 2019 (R. Seidl)
-    - title: Super Sommer
+      text: Imker R. Seidl
+    - title: Super Sommer '19
       icon: supersommer
-      text: Sommertracht 2019
-    - title: Fetter Frühling
+      text: Linde, Himbeere, Kreuzblütler, Obst, Klee, Natterkopf, Roßkastanie, Wein
+    - title: Fetter Frühling '19
       icon: fetterfrühling
-      text: Frühlingshonig 2019
+      text: Raps, Himbeere, Roßkastanie, Hartriegel, Hornklee, Linde, Ahorn
   section2:
     title: Unser Isartal Honig
     subtitle: Imkerei Brunnhaus
@@ -57,11 +57,11 @@ params:
     - title: Direkt in der Natur
       text:  'Direkt am 300 Jahre alten, ehemalig "Königlichen Hofbrunnhaus an der Isar" stehen meine Buckfast Bienenstöcke im FFH Gebiet Isarauen unterhalb vom Biergarten Waldwirtschaft.'
       icon: beehive-outline
-    - title: Ungespritzt
+    - title: Naturbelassen
       text: 'Ungespritzte und vielfältige Pollen- und Nektarquellen stehen so meinen Bienen über das Jahr zur Verfügung wie z. B. Weide, Märzenbecher, Weißdorn, Kirschpflaume, Kirsche, Apfel, Felsenbirne, Löwenzahn, Roßkastanie, Linde, Natterkopf, Alpenclematis, Wildrosen und viele Wildblumen am Ufer der Isar.'
       icon: flower-outline
-    - title: Anfahrt
-      text: An der Isar 2, 82049 Pullach im Isartal
+    - title: Kontakt
+      text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
       icon: map-marker
   section3:
     title:
@@ -69,7 +69,7 @@ params:
     image: biene.jpg
   section4:
     title: Ein paar Eindrücke
-    subtitle: Von unseren Bienen
+    subtitle: von unserer Imkerei
     image1: kästen.jpg
     image2: gläser.jpg
     image3: floß.jpg
@@ -94,12 +94,17 @@ params:
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
       # Icons are from Font Awesome
+    - link: https://google.de/search?q=Imkerei+Brunnhaus
+      icon: google
     - link: https://gitlab.com/brunnhaus
       icon: git
-    bulmalogo: false
     quicklinks:
       column1:
-        title: "Honig"
+        title: Impressum
         links:
-        - text: Home
-          link: /
+        - text: Imker - Dr. Ditmar Unger
+          link: https://brunnhaus.de
+        - text: "Etiketten & Logos - Julian Lauer"
+          link: https://julianlauer.de
+        - text: "Webseite - Janek Lauer"
+          link: https://schlauerlauer.de
