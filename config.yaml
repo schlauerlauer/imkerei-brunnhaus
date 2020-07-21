@@ -108,3 +108,6 @@ params:
           link: https://julianlauer.de
         - text: "Webseite - Janek Lauer"
           link: https://schlauerlauer.de
+        - text: "⠀"
+        - text: Bienenstock Metriken in Grafana
+          link: https://bienen.brunnhaus.de
