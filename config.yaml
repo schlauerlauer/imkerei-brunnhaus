@@ -82,10 +82,10 @@ params:
       quote: "Meine Lieblingshonige!"
       job: Studentin
       img: h
-    - name: Hulan
-      quote: "Seht euch die geilen Etiketten an!"
-      job: Student
-      img: 3
+    - name: Carolin
+      quote: "Ohh, Du hast aber einen fähigen Designer!"
+      job:
+      img: x
   section5: true
   footer:
     logo: logo.png
