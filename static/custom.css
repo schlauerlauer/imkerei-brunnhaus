@@ -1,7 +1,7 @@
 .alertify .ajs-dialog {
     top: 25%;
     margin: auto;
-    background-color: #ffffff
+    background-color: transparent;
 }
 
 .ajs-message.ajs-success{
