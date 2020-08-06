@@ -19,7 +19,16 @@
               <h4>{{ .title }}</h4>
             </div>
             <div class="card-icon">
-                <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
+                <a onclick="alertify.alert('','<img style=&quot;width:100%;heigth:100%&quot; src=&quot;{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}&quot;/>').setting({
+                  'basic': true,
+                  'movable': false,
+                  'closable': true,
+                  'frameless': true,
+                  'padding': false,
+                  'transition': 'zoom'
+                }).show();">
+                  <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
+                </a>
             </div>
             <div class="card-text">
                 <p>{{ .text }}</p>

@@ -1,0 +1,24 @@
+{{- $hero        := .Site.Params.hero }}
+{{- $clientLogos := index $hero "clientlogos" }}
+<div class="hero-foot mb-20">
+  <div class="container">
+    <div class="tabs is-centered">
+      <ul>
+        {{- range $clientLogos }}
+        <li>
+          <a onclick="alertify.alert('','<img style=&quot;width:100%;heigth:100%&quot; src=&quot;{{ printf "/images/logos/clients/%s.svg" . | relURL }}&quot;/>').setting({
+            'basic': true,
+            'movable': false,
+            'closable': true,
+            'frameless': true,
+            'padding': false,
+            'transition': 'zoom',
+          }).show();">
+            <img class="partner-logo" src="{{ printf "/images/logos/clients/%s.svg" . | relURL }}">
+          </a>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+  </div>
+</div>
