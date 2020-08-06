@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Honig</title>
-    <link>http://something-fresh.org/</link>
+    <link>https://honig.brunnhaus.de/</link>
     <description>Recent content on Honig</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://something-fresh.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://honig.brunnhaus.de/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

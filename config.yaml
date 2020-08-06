@@ -1,4 +1,4 @@
-baseURL: http://something-fresh.org/
+baseURL: https://honig.brunnhaus.de/
 languageCode: en-us
 title: Honig
 theme: hugo-fresh
