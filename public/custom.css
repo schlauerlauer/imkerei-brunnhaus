@@ -1,5 +1,13 @@
 .alertify .ajs-dialog {
     top: 25%;
     margin: auto;
-    background-color: transparent
+    background-color: #ffffff
+}
+
+.ajs-message.ajs-success{
+    color: white;
+}
+
+.ajs-message.ajs-error{
+    color: white;
 }
