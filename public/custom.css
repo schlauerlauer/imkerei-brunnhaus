@@ -1,1 +1,5 @@
-.alertify .ajs-dialog{position:relative;margin:5% auto;min-height:110px;max-width:500px;padding:24px 24px 0 24px;outline:0;background-color: transparent}
+.alertify .ajs-dialog {
+    top: 25%;
+    margin: auto;
+    background-color: transparent
+}
