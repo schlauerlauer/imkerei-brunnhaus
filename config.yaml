@@ -26,30 +26,39 @@ params:
     subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
     image: favicon.png
     clientlogos:
+      - supersommer_deckel
       - honigtrip_deckel
       - sommerbär_deckel
-      - frühlingsbär_deckel
-      - supersommer_deckel
       - fetterfrühling_deckel
+      - frühlingsbär_deckel
   section1:
     title: Honigsorten
     subtitle: Der leckere Honig aus dem Isartal mit den coolsten Etiketten
     tiles:
+    - title: Super Sommer '20
+      icon: supersommer
+      text: (Laborergebnisse noch nicht vorhanden)
+      message: 
     - title: Honig Trip '20
       icon: honigtrip 
       text: Raps, Weide, Obst, Ahorn, Himbeere
+      message: Ausverkauft
     - title: Sommer Bär '19
       icon: sommerbär
       text: Imker R. Seidl
+      message: Ausverkauft
     - title: Frühlings Bär '19
       icon: frühlingsbär
       text: Imker R. Seidl
+      message: Ausverkauft
     - title: Super Sommer '19
       icon: supersommer
       text: Linde, Himbeere, Kreuzblütler, Obst, Klee, Natterkopf, Roßkastanie, Wein
+      message: Ausverkauft
     - title: Fetter Frühling '19
       icon: fetterfrühling
       text: Raps, Himbeere, Roßkastanie, Hartriegel, Hornklee, Linde, Ahorn
+      message: Ausverkauft
   section2:
     title: Unser Isartal Honig
     subtitle: Imkerei Brunnhaus
@@ -66,13 +75,13 @@ params:
   section3:
     title:
     subtitle:
-    image: biene.jpg
+    image: supersommer_nah.jpg
   section4:
     title: Ein paar Eindrücke
     subtitle: von unserer Imkerei
-    image1: kästen.jpg
-    image2: gläser.jpg
-    image3: floß.jpg
+    image1: biene.jpg
+    image2: supersommer.jpg
+    image3: kästen.jpg
     clients:
     - name: Ditmar
       quote: "Der Sommerhonig 2020 'Super Sommer' ist jetzt frisch geschleudert!"
