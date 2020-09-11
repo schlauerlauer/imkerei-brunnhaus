@@ -36,7 +36,7 @@ params:
     tiles:
     - title: Super Sommer '20
       icon: supersommer
-      text: (Laborergebnisse noch nicht vorhanden)
+      text: Linde, Kreuzblütler, Himbeere, Wegerich, Mädesüß, Lavendel, Eiche, Süßgräser
       message: 
     - title: Honig Trip '20
       icon: honigtrip 
@@ -86,9 +86,9 @@ params:
       quote: "Der Sommerhonig 2020 'Super Sommer' ist jetzt frisch geschleudert!"
       job: Hobbyimker
       img: d
-    - name: Henny
-      quote: "Meine Lieblingshonige!"
-      job: Studentin
+    - name: Christoph
+      quote: "Spitzen Honig aus einer wunderschönen Gegend vom Imker mit viel Einfallsreichtum, Geschick und gutem Händchen. Unser neuer Haushonig und Hofimker!"
+      job: Hacker
       img: h
     - name: Carolin
       quote: "Ohh, Du hast aber einen fähigen Designer!"
