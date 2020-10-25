@@ -90,10 +90,10 @@ params:
       quote: "Spitzen Honig aus einer wunderschönen Gegend vom Imker mit viel Einfallsreichtum, Geschick und gutem Händchen. Unser neuer Haushonig und Hofimker!"
       job: Hacker
       img: h
-    - name: Carolin
-      quote: "Ohh, Du hast aber einen fähigen Designer!"
-      job:
-      img: x
+    - name: Ditmar
+      quote: "Leider ist der Honig zur Zeit ausverkauft. Wenn du uns unten eine Nachricht da lässt, können wir dir schreiben, wenn wieder welcher da ist!"
+      job: Hobbyimker
+      img: d
   section5: true
   footer:
     logo: logo.png
