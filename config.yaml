@@ -72,15 +72,15 @@ params:
       text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
       icon: map-marker
   section3:
-    title:
-    subtitle:
-    image: supersommer_nah.jpg
+    title: Holzbutter
+    subtitle: Jetzt Neu! Das beste was du deinem Holz antun kannst (unserer Meinung nach). Aus 100% Leinöl und Bienenwachs von unseren Bienen!
+    image: holzbutter.jpg
   section4:
     title: Ein paar Eindrücke
     subtitle: von unserer Imkerei
-    image1: biene.jpg
     image2: supersommer.jpg
     image3: kästen.jpg
+    image4: supersommer_nah.jpg
     clients:
     - name: Wolf
       quote: "Samstag Morgen, graue Wolken – trübe Stimmung? Weg damit! Dr. Ditmar Ungers Super Sommer Isartal-Honig bringt neue Spannkraft und Lebensfreude. Quellfrisch und goldgelb aus der Imkerei Brunnhaus im lieblichen Isartal. Jetzt probieren. Für jeden Tag! Und der Super Sommer kommt zurück."
