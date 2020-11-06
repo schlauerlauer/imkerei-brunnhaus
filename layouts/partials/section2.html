@@ -24,9 +24,8 @@
                 <span class="icon-box-title">{{ .title }}</span>
 
                 <span class="icon-box-text">{{ .text | markdownify }}</span>
-                {{- if .image }}
-                <span><img src="/images/{{ .image }}.png"></img></span>
-                <img src="/images/uptime.png"></img>
+                {{- range .image }}
+                <span><img src="/images/{{ .name }}.png"></img></span>
                 {{- end }}
               </p>
             </div>

@@ -71,7 +71,9 @@ params:
     - title: Überwachung
       icon: chart-areaspline
       text: Unsere Bienenstöcke werden mit Hilfe modernster Technologie überwacht
-      image: graph
+      image:
+      - name: graph
+      - name: uptime
     - title: Kontakt
       text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
       icon: map-marker
