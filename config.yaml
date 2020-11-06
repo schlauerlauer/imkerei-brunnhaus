@@ -68,6 +68,10 @@ params:
     - title: Naturbelassen
       text: 'Ungespritzte und vielfältige Pollen- und Nektarquellen stehen so meinen Bienen über das Jahr zur Verfügung wie z. B. Weide, Märzenbecher, Weißdorn, Kirschpflaume, Kirsche, Apfel, Felsenbirne, Löwenzahn, Roßkastanie, Linde, Natterkopf, Alpenclematis, Wildrosen und viele Wildblumen am Ufer der Isar.'
       icon: flower-outline
+    - title: Überwachung
+      icon: chart-areaspline
+      text: Unsere Bienenstöcke werden mit Hilfe modernster Technologie überwacht
+      image: graph
     - title: Kontakt
       text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
       icon: map-marker
