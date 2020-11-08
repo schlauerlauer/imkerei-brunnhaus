@@ -1,0 +1,41 @@
+# Brunnhaus Honig
+stages:
+  - hugo-build
+update-website:
+  stage: hugo-build
+  only:
+    - master
+  allow_failure: false
+  image: "alpine:3.9.4"
+  before_script:
+    # install dependencies
+    - 'which ssh-agent || (apk update && apk --no-cache add openssh-client git libc6-compat libstdc++)'
+    - eval $(ssh-agent -s)
+    # install gitlab deploy key
+    - echo $GIT_SSH_PRIV_KEY | base64 -d > tmp.key
+    - chmod 400 tmp.key
+    - ssh-add tmp.key
+    - rm tmp.key
+    # add gitlab ssh keys to known_hosts
+    - mkdir -p ~/.ssh
+    - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
+    # setup git
+    - 'git config --global user.email "cicd@schlauerlauer.de" && git config --global user.name "cicd"'
+    # prepare hugo
+    - rm -rf public
+    - mkdir hugo && cd hugo
+    - wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.70.0/hugo_extended_0.70.0_Linux-64bit.tar.gz
+    - tar -xzf hugo.tar.gz
+    - mv hugo /usr/bin && cd ..
+    - rm -rf hugo
+  script:
+    # build hugo site
+    - hugo
+    - mv public ../
+    # push rendered public folder to public branch
+    - git remote set-url origin git@gitlab.com:brunnhaus/honig.git
+    - (git stash && git stash drop && git checkout public) || git checkout public
+    - rm -rf public
+    - mv ../public .
+    - git add -A
+    - (git commit -m "cicd" && git push) || echo "no changes made"
