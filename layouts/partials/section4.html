@@ -2,9 +2,7 @@
 {{- $title    := index $section4 "title" }}
 {{- $subtitle := index $section4 "subtitle" }}
 {{- $clients  := index $section4 "clients" }}
-{{- $image2    := index $section4 "image2" }}
-{{- $image3    := index $section4 "image3" }}
-{{- $image4    := index $section4 "image4" }}
+{{- $images    := index $section4 "images" }}
 <section class="section is-medium section-secondary">
   <div class="container">
 
@@ -19,9 +17,9 @@
     <br>
     <div class="column is-10 is-offset-1">
       <div class="has-text-centered">
-        <img class="pushed-image" src="{{ printf "/images/%s" $image2 | relURL }}">
-        <img class="pushed-image" src="{{ printf "/images/%s" $image3 | relURL }}">
-        <img class="pushed-image" src="{{ printf "/images/%s" $image4 | relURL }}">
+        {{- range $images }}
+        <img class="pushed-image" src="{{ printf "/images/%s" .name | relURL }}">
+        {{- end }}
       </div>
     </div>
     <div class="content-wrapper">
