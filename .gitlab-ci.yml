@@ -13,6 +13,7 @@ update-website:
     - eval $(ssh-agent -s)
     # install gitlab deploy key
     - chmod 400 $GIT_SSH_PRIV_KEY
+    - cat $GIT_SSH_PRIV_KEY
     - ssh-add $GIT_SSH_PRIV_KEY
     # add gitlab ssh keys to known_hosts
     - mkdir -p ~/.ssh
