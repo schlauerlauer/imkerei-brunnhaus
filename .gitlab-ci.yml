@@ -12,7 +12,7 @@ update-website:
     - 'which ssh-agent || (apk update && apk --no-cache add openssh-client git libc6-compat libstdc++)'
     - eval $(ssh-agent -s)
     # install gitlab deploy key
-    - echo $GIT_SSH_PRIV_KEY | base64 -d > tmp.key
+    - cat $GIT_SSH_PRIV_KEY | base64 -d > tmp.key
     - chmod 400 tmp.key
     - ssh-add tmp.key
     - rm tmp.key
