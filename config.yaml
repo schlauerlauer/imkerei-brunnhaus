@@ -30,6 +30,25 @@ params:
       - sommerbär_deckel
       - fetterfrühling_deckel
       - frühlingsbär_deckel
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Honigsorten
+    url: "#sorten"
+  - title: Informationen
+    url: "#info"
+  - title: Produkte
+    sublinks:
+    - title: Holzbutter
+      url: "#products"
+  - title: Eindrücke
+    sublinks:
+    - title: Bilder
+      url: "#impressions"
+    - title: Kommentare
+      url: "#comments"
+  - title: Kontakt
+    url: "#form"
+    button: true
   section1:
     title: Honigsorten
     subtitle: Der leckere Honig aus dem Isartal mit den coolsten Etiketten
@@ -62,6 +81,9 @@ params:
     title: Unser Isartal Honig
     subtitle: Imkerei Brunnhaus
     features:
+    - title: Kontakt
+      text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
+      icon: map-marker
     - title: Direkt in der Natur
       text:  'Direkt am 300 Jahre alten, ehemalig "Königlichen Hofbrunnhaus an der Isar" stehen meine Buckfast Bienenstöcke im FFH Gebiet Isarauen unterhalb vom Biergarten Waldwirtschaft.'
       icon: beehive-outline
@@ -74,9 +96,6 @@ params:
       image:
       - name: graph
       - name: uptime
-    - title: Kontakt
-      text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
-      icon: map-marker
   section3:
     title: Gute Holzbutter
     subtitle: "Jetzt Neu: Das beste was du deinem Holz antun kannst (unserer Meinung nach). Aus 100% Leinöl und Bienenwachs von unseren Bienen! Für dein Schneidebrett, Tisch, Messergrif, Axtstiel, Kochlöffel, usw."
