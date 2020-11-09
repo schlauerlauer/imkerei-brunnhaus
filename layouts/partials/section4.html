@@ -3,7 +3,7 @@
 {{- $subtitle := index $section4 "subtitle" }}
 {{- $clients  := index $section4 "clients" }}
 {{- $images    := index $section4 "images" }}
-<section class="section is-medium section-secondary">
+<section class="section is-medium section-secondary" name="impressions">
   <div class="container">
 
     <div class="title-wrapper has-text-centered">
@@ -22,7 +22,7 @@
         {{- end }}
       </div>
     </div>
-    <div class="content-wrapper">
+    <div class="content-wrapper" name="comments">
       <div class="columns is-vcentered">
         {{- range $clients }}
         <div class="column is-4">
