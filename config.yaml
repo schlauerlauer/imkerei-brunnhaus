@@ -22,7 +22,8 @@ params:
     sizes: [400,600]
   hero:
     title: Imkerei Brunnhaus
-    subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
+    # subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
+    subtitle: "Gutes aus dem Isartal: der Honig von 2020 ist leider bereits ausverkauft aber wir haben noch Holzbutter und demnächst Kussbutter ..."
     image: favicon.png
     clientlogos:
       - supersommer_deckel
@@ -100,7 +101,7 @@ params:
       - name: uptime
   section3:
     title: Gute Holzbutter
-    subtitle: "Jetzt Neu: Das beste was du deinem Holz antun kannst (unserer Meinung nach). Aus 100% Leinöl und Bienenwachs von unseren Bienen! Für dein Schneidebrett, Tisch, Messergrif, Axtstiel, Kochlöffel, usw."
+    subtitle: "Jetzt Neu: Das beste was du deinem Holz antun kannst (finden wir). Aus 100% Leinöl und Bienenwachs von unseren Bienen! Für dein Schneidebrett, Tisch, Messergrif, Axtstiel, Kochlöffel, usw."
     image: holzbutter.jpg
   section4:
     title: Ein paar Eindrücke
