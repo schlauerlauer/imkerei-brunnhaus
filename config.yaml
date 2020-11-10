@@ -37,10 +37,12 @@ params:
   - title: Informationen
     url: "#info"
   - title: Produkte
+    url: "#products"
     sublinks:
     - title: Holzbutter
       url: "#products"
   - title: Eindrücke
+    url: "#impressions"
     sublinks:
     - title: Bilder
       url: "#impressions"
