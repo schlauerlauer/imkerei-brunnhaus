@@ -119,7 +119,7 @@ params:
       job: Hacker
       img: h
     - name: Ditmar
-      quote: "Leider ist der Honig zur Zeit ausverkauft. Wenn du uns unten eine Nachricht da lässt, können wir dir schreiben, wenn wieder welcher da ist!"
+      quote: "Leider ist der Honig bereits ausverkauft. Wenn du uns unten eine Nachricht da lässt, können wir dir schreiben, wenn wieder welcher da ist!"
       job: Hobbyimker
       img: d
   section5: true
