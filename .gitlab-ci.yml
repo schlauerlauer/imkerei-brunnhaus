@@ -8,6 +8,9 @@ update-website:
   allow_failure: false
   image: "registry.gitlab.com/brunnhaus/honig:latest"
   before_script:
+    # ssh setup
+    - ssh-add $GIT_SSH_PRIV_KEY
+    - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
     # prepare hugo
     - rm -rf public
   script:
