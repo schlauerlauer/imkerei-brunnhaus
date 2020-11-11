@@ -11,9 +11,10 @@
         <h1 class="title is-1 is-bold is-spaced">
           {{ $title }}
         </h1>
-        {{ with $subtitle }}
+        {{ range $subtitle }}
         <h2 class="subtitle is-5 is-muted">
-          {{ . }}
+          {{ .line | markdownify }}
+          <br>
         </h2>
         {{ end }}
       </div>
