@@ -13,7 +13,7 @@ markup:
 params:
   openGraph: false
   # Used as meta data; describe your site to make Google Bots happy 
-  description: Leckere Honige von der Imkerei Brunnhaus
+  description: Leckere Honige und Bienenwachsprodukte von der Imkerei Brunnhaus im Isartal
   navbarlogo:
     image: logos/logo_wide.png
     link: /
