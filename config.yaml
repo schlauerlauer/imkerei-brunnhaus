@@ -36,23 +36,23 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Honigsorten
-    url: "#sorten"
+    url: "/#sorten"
   - title: Informationen
-    url: "#info"
+    url: "/#info"
   - title: Produkte
-    url: "#products"
+    url: "/#products"
     sublinks:
     - title: Holzbutter
-      url: "#products"
+      url: "/#products"
   - title: Eindrücke
-    url: "#impressions"
+    url: "/#impressions"
     sublinks:
     - title: Bilder
-      url: "#impressions"
+      url: "/#impressions"
     - title: Kommentare
-      url: "#comments"
+      url: "/#comments"
   - title: Kontakt
-    url: "#form"
+    url: "/#form"
     button: true
   section1:
     title: Honigsorten
