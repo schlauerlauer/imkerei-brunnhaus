@@ -23,4 +23,4 @@ update-website:
     # build hugo site
     - hugo
     - git add -f -A
-    - (git commit -m "cicd" && git push) || echo "no changes made"
+    - (git commit -m "hugo" && git push) || echo "no changes made"
