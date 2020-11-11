@@ -11,10 +11,10 @@ update-website:
     # prepare hugo
     - rm -rf public
   script:
-    # build hugo site
-    - hugo
     # push rendered public folder to master branch
     - git remote set-url origin git@gitlab.com:brunnhaus/honig.git
+    # build hugo site
+    - hugo
     #- (git stash && git stash drop && git checkout public) || git checkout public
     - git add -f -A
     - (git commit -m "cicd" && git push) || echo "no changes made"
