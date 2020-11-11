@@ -25,7 +25,7 @@ params:
     # subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
     subtitle: 
     - line: "Gutes aus dem Isartal: der Honig von 2020 ist leider bereits ausverkauft"
-    - line: "aber wir haben noch [Holzbutter](#products) und demnächst Kussbutter!"
+    - line: "aber wir haben jetzt [Holzbutter](#products) und demnächst Kussbutter!"
     image: favicon.png
     clientlogos:
       - supersommer_deckel
