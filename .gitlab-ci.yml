@@ -9,6 +9,8 @@ update-website:
   image: "registry.gitlab.com/brunnhaus/honig:latest"
   before_script:
     # ssh setup
+    - eval $(ssh-agent -s)
+    - chmod 400 $GIT_SSH_PRIV_KEY
     - ssh-add $GIT_SSH_PRIV_KEY
     - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
     # prepare hugo
