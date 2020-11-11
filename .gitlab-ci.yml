@@ -13,11 +13,8 @@ update-website:
   script:
     # build hugo site
     - hugo
-    #- mv public ../
-    # push rendered public folder to public branch
+    # push rendered public folder to master branch
     #- git remote set-url origin git@gitlab.com:brunnhaus/honig.git
     #- (git stash && git stash drop && git checkout public) || git checkout public
-    #- rm -rf public
-    #- mv ../public .
-    #- git add -A
-    #- (git commit -m "cicd" && git push) || echo "no changes made"
+    - git add -f -A
+    - (git commit -m "cicd" && git push) || echo "no changes made"
