@@ -14,7 +14,7 @@ update-website:
     # build hugo site
     - hugo
     # push rendered public folder to master branch
-    #- git remote set-url origin git@gitlab.com:brunnhaus/honig.git
+    - git remote set-url origin git@gitlab.com:brunnhaus/honig.git
     #- (git stash && git stash drop && git checkout public) || git checkout public
     - git add -f -A
     - (git commit -m "cicd" && git push) || echo "no changes made"
