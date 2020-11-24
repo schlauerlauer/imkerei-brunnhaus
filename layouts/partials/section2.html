@@ -15,7 +15,7 @@
         <article class="media icon-box">
           <figure class="media-left">
             <p class="image">
-              <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
+              <img loading="lazy" src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
             </p>
           </figure>
           <div class="media-content mt-50">
@@ -25,7 +25,7 @@
 
                 <span class="icon-box-text">{{ .text | markdownify }}</span>
                 {{- range .image }}
-                <span><img src="/images/{{ .name }}.png"></img></span>
+                <span><img loading="lazy" src="/images/{{ .name }}.png"></img></span>
                 {{- end }}
               </p>
             </div>
