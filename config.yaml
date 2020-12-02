@@ -127,7 +127,7 @@ params:
       img: d.jpg
   section5: true
   footer:
-    logo: logo.png
+    logo: logo_small.png
     socialmediatitle: Folge uns
     socialmedia:
     - link: https://google.de/search?q=Imkerei+Brunnhaus
