@@ -26,7 +26,7 @@ params:
     subtitle: 
     - line: "Gutes aus dem Isartal: der Honig von 2020 ist leider bereits ausverkauft"
     - line: "aber wir haben jetzt [Holzbutter](#products) und demnächst Kussbutter!"
-    image: favicon.png
+    image: favicon.jpg
     clientlogos:
       - supersommer_deckel
       - honigtrip_deckel
@@ -116,15 +116,15 @@ params:
     - name: Wolf
       quote: "Samstag Morgen, graue Wolken – trübe Stimmung? Weg damit! Dr. Ditmar Ungers Super Sommer Isartal-Honig bringt neue Spannkraft und Lebensfreude. Quellfrisch und goldgelb aus der Imkerei Brunnhaus im lieblichen Isartal. Jetzt probieren. Für jeden Tag! Und der Super Sommer kommt zurück."
       job: Grafikdesigner
-      img: sheep
+      img: sheep.jpg
     - name: Christoph
       quote: "Spitzen Honig aus einer wunderschönen Gegend vom Imker mit viel Einfallsreichtum, Geschick und gutem Händchen. Unser neuer Haushonig und Hofimker!"
       job: Hacker
-      img: h
+      img: h.jpg
     - name: Ditmar
       quote: "Leider ist der Honig bereits ausverkauft. Wenn Du uns unten eine Nachricht schickst, können wir Dir schreiben, wenn wieder welcher da ist!"
       job: Hobbyimker
-      img: d
+      img: d.jpg
   section5: true
   footer:
     logo: logo.png

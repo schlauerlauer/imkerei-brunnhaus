@@ -31,7 +31,7 @@
               {{ .quote }}
             </blockquote>
             <div class="author">
-              <img loading="lazy" src="{{ printf "/images/illustrations/faces/%s.png" (string .img) | relURL }}" alt=""/>
+              <img loading="lazy" src="{{ printf "/images/illustrations/faces/%s" (string .img) | relURL }}" alt=""/>
               <h5>{{ .name }}</h5>
               <span>{{ .job }}</span>
             </div>
