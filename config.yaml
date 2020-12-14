@@ -25,7 +25,7 @@ params:
     # subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
     subtitle: 
     - line: "Gutes aus dem Isartal: der Honig von 2020 ist leider bereits ausverkauft"
-    - line: "aber wir haben jetzt [Holzbutter](#products) und demnächst Kussbutter!"
+    - line: "aber wir haben jetzt [Holzbutter](#products) und neu auch [Kussbutter](#products)!"
     image: favicon.jpg
     clientlogos:
       - supersommer_deckel
@@ -43,7 +43,9 @@ params:
     url: "/#products"
     sublinks:
     - title: Holzbutter
-      url: "/#products"
+      url: "/#holzbutter"
+    - title: Kussbutter
+      url: "/#kussbutter"
   - title: Eindrücke
     url: "/#impressions"
     sublinks:
@@ -102,9 +104,15 @@ params:
       - name: graph
       - name: uptime
   section3:
-    title: Gute Holzbutter
-    subtitle: "Jetzt neu: Das Beste was Du Deinem Holz antun kannst (finden wir). Aus 100% Leinöl und Bienenwachs von unseren Bienen! Für Dein Schneidebrett, Tisch, Messergriff, Möbel, usw."
-    image: holzbutter.jpg
+    items:
+    - title: Gute Holzbutter
+      subtitle: "Das Beste was Du Deinem Holz antun kannst (finden wir). Aus 100% Leinöl und Bienenwachs von unseren Bienen! Für Dein Schneidebrett, Tisch, Messergriff, Möbel, usw."
+      image: holzbutter.jpg
+      anchor: holzbutter
+    - title: Gute Kussbutter
+      subtitle: "Lippenbalsam aus Kokosöl, Bienenwachs und Honig mit Propolis und ein paar Tropfen Kamilleextrakt oder Teebaumöl in schönem Holzdöschen aus Mirabelle oder Kirschpflaume."
+      image: kussbutter.jpg
+      anchor: kussbutter
   section4:
     title: Ein paar Eindrücke
     subtitle: von unserer Imkerei
