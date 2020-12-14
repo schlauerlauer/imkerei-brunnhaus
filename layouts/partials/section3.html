@@ -1,6 +1,6 @@
 {{- $section3   := .Site.Params.section3 }}
 {{- $items   := index $section3 "items" }}
-<section class="section section-feature-grey is-medium">
+<section class="section section-feature-grey is-medium" name="products">
   {{- range $items }}
   <div class="container" name="{{ .anchor }}">
     <div class="title-wrapper has-text-centered">
