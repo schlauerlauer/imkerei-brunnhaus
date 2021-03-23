@@ -1,5 +1,0 @@
-# Our security address
-Contact: mailto:security@schlauerlauer.de
-
-# Our security acknowledments page
-Acknowledgemnts: https://honig.brunnhaus.de/hall-of-fame
