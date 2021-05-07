@@ -4,14 +4,14 @@
   {{- range $items }}
   <div class="container" name="{{ .anchor }}">
     <div class="title-wrapper has-text-centered ">
-      <h2 class="title">{{ .title }}</h2>
-      <h3 style="margin-bottom: 70px;" class="card-content subtitle is-5 is-muted">{{ .subtitle }}</h3>
+      <h2 style="margin-top: 3rem;" class="title">{{ .title }}</h2>
+      <h3 class="card-content subtitle is-5 is-muted">{{ .subtitle }}</h3>
     </div>
     <div class="columns">
       <div class="column is-10 is-offset-1">
         <div class="has-text-centered">
           <figure class="image">
-            <img class="card-image is-rounded pushed-image" src="{{ printf "/images/%s" .image | relURL }}">
+            <img loading="lazy" style="margin-top: 1rem;" class="card-image is-rounded pushed-image" src="{{ printf "/images/%s" .image | relURL }}">
           </figure>
         </div>
       </div>
