@@ -101,8 +101,8 @@ params:
       icon: chart-areaspline
       text: Unsere Bienenstöcke werden mit Hilfe modernster Technologie überwacht
       image:
-      - name: graph
-      - name: uptime
+      - name: delta
+      - name: humid
   section3:
     items:
     - title: Gute Holzbutter
@@ -151,7 +151,10 @@ params:
         - text: "Etiketten & Logos - Julian Lauer"
           link: https://julianlauer.de
         - text: "Webseite - Janek Lauer"
-          link: https://schlauerlauer.de
+          link: https://github.com/schlauerlauer/
         - text: "⠀"
         - text: Bienenstock Metriken in Grafana
-          link: https://bienen.brunnhaus.de/d/bienen/bienen
+          link: https://monitoring.brunnhaus.de/d/bienen/bienen
+        - text: "⠀"
+        - text: "No cookies found 🤷‍♀️ have this one 🍪"
+          link: https://gitlab.com/brunnhaus/honig
