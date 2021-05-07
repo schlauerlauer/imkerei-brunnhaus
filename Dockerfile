@@ -1,4 +1,4 @@
-FROM docker.io/library/golang:1.15.7 AS go
+FROM docker.io/library/golang:1.15.8 AS go
 WORKDIR /go
 RUN go get -d -v \
     github.com/thinkerou/favicon \

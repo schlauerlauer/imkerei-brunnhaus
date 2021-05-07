@@ -5,48 +5,27 @@
         <h3 class="subtitle is-5 is-muted">Wir hören gerne von dir</h3>
         <div class="divider is-centered"></div>
       </div>
-  
       <div class="content-wrapper">
         <div class="columns">
           <div class="column is-6 is-offset-3">
-              <div class="columns is-multiline">
-                <div class="column is-6">
-                  <input id="nachricht-name" minlength="2" maxlength="40" class="input is-medium" type="text" placeholder="Dein Name">
-                </div>
-                <div class="column is-6">
-                  <input id="nachricht-mail" class="input is-medium" minlength="5" maxlength="40" type="text" placeholder="Email / Telefon">
-                </div>
-                <div class="column is-12">
-                  <textarea id="nachricht" class="textarea" rows="10" minlength="1" placeholder="Deine Nachricht an uns ..."></textarea>
-                </div>
-                <div class="form-footer has-text-centered mt-10">
-                  <button onclick="sendWebhook()" class="button cta is-large primary-btn raised is-clear">Nachricht senden</button>
+            <div class="columns is-multiline">
+              <div class="column is-6">
+                <input id="nachricht-name" minlength="2" maxlength="40" class="input is-medium" type="text" placeholder="Dein Name">
+              </div>
+              <div class="column is-6">
+                <input id="nachricht-mail" class="input is-medium" minlength="5" maxlength="40" type="text" placeholder="Email / Telefon">
+              </div>
+              <div class="column is-12">
+                <textarea id="nachricht" class="textarea" rows="10" minlength="1" placeholder="Deine Nachricht an uns ..."></textarea>
+              </div>
+              <div class="form-footer has-text-centered mt-10">
+                <h3 class="subtitle is-5 is-muted" id="message-response"></h3>
+                <button id="sendmessage" class="button cta is-large primary-btn raised is-clear">Nachricht senden</button>
                 </div>
               </div>
           </div>
         </div>
       </div>
     </div>
-<script src="/alertify.js" type="module"></script>
-<link rel="stylesheet" type="text/css" href="/alertify.css" media="all">
-<link rel="stylesheet" type="text/css" href="/custom.css" media="all">
-<script>
-function sendWebhook() {
-    let xhttp = new XMLHttpRequest();
-    let name = document.getElementById("nachricht-name").value;
-    let mail = document.getElementById("nachricht-mail").value;
-    let nachricht = document.getElementById("nachricht").value;
-    if (name != "" && mail != "" && nachricht != "") {
-        xhttp.open("POST", "https://home.brunnhaus.de/api/webhook/honig.brunnhaus", true);
-        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xhttp.send("name=" + name + "&mail=" + mail + "&nachricht=" + nachricht);
-        alertify.success("Vielen Dank für deine Nachricht!");
-        document.getElementById("nachricht-name").value = "";
-        document.getElementById("nachricht-mail").value = "";
-        document.getElementById("nachricht").value = "";
-    } else {
-        alertify.error("Bitte alle Felder ausfüllen.");
-    }
-}
-</script>
+<script src="/webhook.js" type="module"></script>
 </section>
