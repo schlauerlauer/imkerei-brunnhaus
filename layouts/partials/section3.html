@@ -3,18 +3,19 @@
 <section class="section section-feature-grey is-medium" name="products">
   {{- range $items }}
   <div class="container" name="{{ .anchor }}">
-    <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2">{{ .title }}</h2>
-      <h3 class="subtitle is-5 is-muted">{{ .subtitle }}</h3>
+    <div class="title-wrapper has-text-centered ">
+      <h2 class="title">{{ .title }}</h2>
+      <h3 style="margin-bottom: 70px;" class="card-content subtitle is-5 is-muted">{{ .subtitle }}</h3>
     </div>
-    <br><br><br><br>
     <div class="columns">
       <div class="column is-10 is-offset-1">
         <div class="has-text-centered">
-          <img loading="lazy" class="pushed-image" src="{{ printf "/images/%s" .image | relURL }}">
+          <figure class="image">
+            <img class="card-image is-rounded pushed-image" src="{{ printf "/images/%s" .image | relURL }}">
+          </figure>
         </div>
       </div>
-    </div>    
+    </div>
   </div>
   {{- end }}
 </section>
