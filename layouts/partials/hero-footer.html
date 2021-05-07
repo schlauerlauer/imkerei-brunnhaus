@@ -6,14 +6,7 @@
       <ul>
         {{- range $clientLogos }}
         <li>
-          <a onclick="alertify.alert('','<img style=&quot;width:100%;heigth:100%&quot; src=&quot;{{ printf "/images/logos/clients/%s.svg" . | relURL }}&quot;/>').setting({
-            'basic': true,
-            'movable': false,
-            'closable': true,
-            'frameless': true,
-            'padding': false,
-            'transition': 'zoom',
-          }).show();">
+          <a>
             <img class="partner-logo" src="{{ printf "/images/logos/clients/%s.jpg" . | relURL }}">
           </a>
         </li>
