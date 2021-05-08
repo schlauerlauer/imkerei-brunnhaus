@@ -21,7 +21,7 @@ params:
     name: "Open Sans"
     sizes: [400,600]
   hero:
-    title: Imkerei Brunnhaus
+    title: Imkerei Brunnhaus - Honig aus dem Isartal
     # subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
     subtitle: 
     - line: "Gutes aus dem Isartal: der Honig von 2020 ist leider bereits ausverkauft"
