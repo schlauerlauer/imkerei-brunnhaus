@@ -117,9 +117,9 @@ params:
     title: Ein paar Eindrücke
     subtitle: von unserer Imkerei
     images:
-    - name: supersommer.jpg
-    - name: kästen.jpg
     - name: supersommer_nah.jpg
+    - name: kästen.jpg
+    - name: supersommer.jpg
     clients:
     - name: Wolf
       quote: "Samstag Morgen, graue Wolken – trübe Stimmung? Weg damit! Dr. Ditmar Ungers Super Sommer Isartal-Honig bringt neue Spannkraft und Lebensfreude. Quellfrisch und goldgelb aus der Imkerei Brunnhaus im lieblichen Isartal. Jetzt probieren. Für jeden Tag! Und der Super Sommer kommt zurück."
