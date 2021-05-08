@@ -1,0 +1,20 @@
+{
+    "name": "Imkerei Brunnhaus",
+    "short_name": "Imkerei Brunnhaus",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#f39200",
+    "background_color": "#f39200",
+    "start_url": "https://imkerei.brunnhaus.de",
+    "display": "standalone"
+}
