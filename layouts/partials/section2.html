@@ -25,7 +25,7 @@
 
                 <span class="icon-box-text">{{ .text | markdownify }}</span>
                 {{- range .image }}
-                <figure class="image"><img class="is-rounded" src="https://static.brunnhaus.de/imkerei/{{ .name }}.png"></img></figure>
+                <figure loading="lazy" class="image"><img class="is-rounded" src="https://static.brunnhaus.de/imkerei/{{ .name }}.png"></img></figure>
                 {{- end }}
               </p>
             </div>
