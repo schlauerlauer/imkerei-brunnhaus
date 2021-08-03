@@ -24,8 +24,8 @@ params:
     title: Imkerei Brunnhaus - Honig aus dem Isartal
     # subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
     subtitle: 
-    - line: "Gutes aus dem Isartal: der Honig von 2020 ist leider bereits ausverkauft"
-    - line: "aber wir haben jetzt [Holzbutter](#products) und neu auch [Kussbutter](#products)!"
+    - line: "Gutes aus dem Isartal: der Super Sommer Honig ist jetzt verfügbar"
+    - line: "außerdem haben wir [Holzbutter](#products) und auch [Kussbutter](#products)!"
     image: favicon.jpg
     clientlogos:
       - supersommer_deckel
