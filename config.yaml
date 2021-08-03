@@ -60,30 +60,35 @@ params:
     title: Honigsorten
     subtitle: Der leckere Honig aus dem Isartal mit den coolsten Etiketten
     tiles:
-    - title: Super Sommer '20
+    - title: Super Sommer '21
       icon: supersommer
       text: Linde, Kreuzblütler, Himbeere, Wegerich, Mädesüß, Lavendel, Eiche, Süßgräser
-      message: Leider bereits ausverkauft 
+      message: Jetzt auf Lager
+      color: green
     - title: Honig Trip '20
       icon: honigtrip 
       text: Raps, Weide, Obst, Ahorn, Himbeere
       message: Ausverkauft
+      color: orange
     - title: Sommer Bär '19
       icon: sommerbär
       text: Imker R. Seidl
+      color: orange
       message: Ausverkauft
     - title: Frühlings Bär '19
       icon: frühlingsbär
       text: Imker R. Seidl
       message: Ausverkauft
-    - title: Super Sommer '19
-      icon: supersommer
-      text: Linde, Himbeere, Kreuzblütler, Obst, Klee, Natterkopf, Roßkastanie, Wein
-      message: Ausverkauft
+      color: orange
+    # - title: Super Sommer '19
+    #   icon: supersommer
+    #   text: Linde, Himbeere, Kreuzblütler, Obst, Klee, Natterkopf, Roßkastanie, Wein
+    #   message: Ausverkauft
     - title: Fetter Frühling '19
       icon: fetterfrühling
       text: Raps, Himbeere, Roßkastanie, Hartriegel, Hornklee, Linde, Ahorn
       message: Ausverkauft
+      color: orange
   section2:
     title: Unser Isartal Honig
     subtitle: Imkerei Brunnhaus
