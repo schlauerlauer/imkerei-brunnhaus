@@ -135,7 +135,7 @@ params:
       job: Hacker
       img: h.jpg
     - name: Ditmar
-      quote: "Leider ist der Honig bereits ausverkauft. Wenn Du uns unten eine Nachricht schickst, können wir Dir schreiben, wenn wieder welcher da ist!"
+      quote: "Es gibt wieder Sommerhonig - flüssig und cremig gerührt - sowie Holz- und Kussbutter!"
       job: Hobbyimker
       img: d.jpg
   section5: true
@@ -153,9 +153,9 @@ params:
         links:
         - text: Imker - Dr. Ditmar Unger
           link: https://brunnhaus.de
-        - text: "Etiketten & Logos - Julian Lauer"
+        - text: "Mehr Bilder und auch Postkarten von meinem Sohn Julian"
           link: https://julianlauer.de
-        - text: "Webseite - Janek Lauer"
+        - text: "Webseite von meinem Sohn Janek"
           link: https://github.com/schlauerlauer/
         - text: "⠀"
         - text: Bienenstock Metriken in Grafana
