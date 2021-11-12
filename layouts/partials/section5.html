@@ -1,8 +1,10 @@
+{{- $section5 := .Site.Params.section5 }}
+{{- $lists := index $section5 "lists" }}
 <section class="section section-light-grey is-medium" name="form">
     <div class="container">
       <div class="title-wrapper has-text-centered">
         <h2 class="title is-2 is-spaced">Lass uns etwas da!</h2>
-        <h3 class="subtitle is-5 is-muted">Wir hören gerne von dir</h3>
+        <h3 class="subtitle is-5 is-muted">Und abonnieren Sie unsere emails</h3>
         <div class="divider is-centered"></div>
       </div>
       <div class="content-wrapper">
@@ -13,14 +15,23 @@
                 <input id="nachricht-name" minlength="2" maxlength="40" class="input is-medium" type="text" placeholder="Dein Name">
               </div>
               <div class="column is-6">
-                <input id="nachricht-mail" class="input is-medium" minlength="5" maxlength="40" type="text" placeholder="Email / Telefon">
+                <input id="nachricht-mail" class="input is-medium" minlength="5" maxlength="40" type="text" placeholder="Email">
+              </div>
+              <div class="column is-6">
+                <h3>Emails abonnieren</h3>
+                {{- range $lists }}
+                <p>
+                  <input id="{{ .idHtml }}" type="checkbox" class="mail" checked value="{{ .idDb }}" />
+                  <label for="{{ .idHtml }}">{{ .name }}</label>
+                </p>
+                {{- end }}
               </div>
               <div class="column is-12">
-                <textarea id="nachricht" class="textarea" rows="10" minlength="1" placeholder="Deine Nachricht an uns ..."></textarea>
+                <textarea id="nachricht" class="textarea" rows="10" minlength="1" placeholder="Du kannst uns auch gerne eine Nachricht schicken."></textarea>
               </div>
               <div class="form-footer has-text-centered mt-10">
-                <h3 class="subtitle is-5 is-muted" id="message-response"></h3>
-                <button id="sendmessage" class="button cta is-large primary-btn raised is-clear">Nachricht senden</button>
+                <h3 class="subtitle is-5 is-muted" id="message-response">⠀</h3>
+                <button id="sendmessage" class="button cta is-large primary-btn raised is-clear">Abschicken</button>
                 </div>
               </div>
           </div>
