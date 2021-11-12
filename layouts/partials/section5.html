@@ -21,7 +21,7 @@
                 <h3>Emails abonnieren</h3>
                 {{- range $lists }}
                 <p>
-                  <input style="margin-top: .5rem" id="{{ .idHtml }}" type="checkbox" class="mail" checked value="{{ .idDb }}" />
+                  <input style="margin-top: .5rem;" id="{{ .idHtml }}" type="checkbox" class="mail" checked value="{{ .idDb }}" />
                   <label style="font-size: 1rem;" for="{{ .idHtml }}">{{ .name }}</label>
                 </p>
                 {{- end }}

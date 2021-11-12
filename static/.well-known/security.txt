@@ -1,5 +1,5 @@
 # Our security address
-Contact: mailto:security@lauer.email
+Contact: mailto:imkerei@brunnhaus.de
 
 # Our security acknowledments page
 Acknowledgemnts: https://honig.brunnhaus.de/hall-of-fame
