@@ -65,10 +65,13 @@ async function subscribe(form) {
 }
 
 async function processRequest() {
+  const nameDom = document.getElementById("nachricht-name");
+  const mailDom = document.getElementById("nachricht-mail");
+  const messageDom = document.getElementById("nachricht");
   const form = {
-    name: document.querySelector("#nachricht-name").value,
-    mail: document.getElementById("nachricht-mail").value,
-    nachricht: document.getElementById("nachricht").value,
+    name: nameDom.value,
+    mail: mailDom.value,
+    nachricht: messageDom.value,
     lists: document.querySelectorAll("input[class='mail']:checked")
   };
   const responseText = document.getElementById("message-response");
@@ -109,16 +112,20 @@ async function processRequest() {
       default:
         break;
     }
-    document.getElementById("nachricht-name").value = "";
-    document.getElementById("nachricht-mail").value = "";
-    document.getElementById("nachricht").value = "";
+    nameDom.value = "";
+    mailDom.value = "";
+    messageDom.value = "";
     responseText.style.color = color;
     responseText.innerHTML = message;
   } else {
     responseText.style.color = colors.red;
+    nameDom.style.borderColor = colors.red;
+    mailDom.style.borderColor = colors.red;
     responseText.innerHTML = messages.fieldMissing;
   }
   setTimeout(() => {
     responseText.innerHTML = "⠀";
+    nameDom.style.borderColor = "";
+    mailDom.style.borderColor = "";
   }, 5000);
 }
