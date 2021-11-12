@@ -92,12 +92,10 @@ async function processRequest() {
           message = messages.failure;
           color = colors.red;
         }
-        console.log("WEBHOOK");
         break;
       case channelType.subscription:
         subscribe(form);
         message = messages.subscription;
-        console.log("SUBSCRIPTION");
         break;
       case channelType.both:
         subscribe(form);
@@ -107,7 +105,6 @@ async function processRequest() {
           message = messages.bothFailiure;
           color = colors.red;
         }
-        console.log("BOTH");
         break;
       default:
         break;
