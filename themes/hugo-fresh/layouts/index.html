@@ -19,7 +19,7 @@
     {{ partial "section4.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.section5 }}
+    {{ if .Site.Params.section5.enabled }}
     {{ partial "section5.html" . }}
     {{ end }}
 

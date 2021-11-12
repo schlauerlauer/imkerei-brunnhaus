@@ -138,7 +138,15 @@ params:
       quote: "Es gibt wieder Sommerhonig - flüssig und cremig gerührt - sowie Holz- und Kussbutter!"
       job: Hobbyimker
       img: d.jpg
-  section5: true
+  section5:
+    enabled: true
+    lists:
+    - name: Honig Verfügbarkeit
+      idHtml: 68a8e
+      idDb: 68a8e4a9-1086-42de-ac0d-20c5065cd089
+    - name: Weitere Produkte
+      idHtml: 9a7be
+      idDb: 9a7bef05-f7c0-43c8-8fdd-27a56b8daa15
   footer:
     logo: logo_small.png
     socialmediatitle: Folge uns
