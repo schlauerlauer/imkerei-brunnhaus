@@ -26,7 +26,7 @@ params:
     subtitle: 
     - line: "Gutes aus dem Isartal: der Super Sommer Honig ist jetzt verfügbar"
     - line: "außerdem haben wir [Holzbutter](#products) und auch [Kussbutter](#products)!"
-    image: favicon.jpg
+    image: favicon.png
     clientlogos:
       - supersommer_deckel
       - honigtrip_deckel
