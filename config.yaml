@@ -24,8 +24,8 @@ params:
     title: Imkerei Brunnhaus - Honig aus dem Isartal
     # subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
     subtitle: 
-    - line: "Gutes aus dem Isartal: der Super Sommer Honig 2021 ist leider ausverkauft"
-    - line: "allerdings haben wir [Holzbutter](#products) und auch [Kussbutter](#products)!"
+    - line: "Gutes aus dem Isartal: es gibt nun den Frühjahrshonig 2022."
+    - line: "Außerdem haben wir [Holzbutter](#products) und [Kussbutter](#products)!"
     image: favicon.png
     clientlogos:
       - supersommer_deckel
@@ -60,30 +60,39 @@ params:
     title: Honigsorten
     subtitle: Der leckere Honig aus dem Isartal mit den coolsten Etiketten
     tiles:
-    - title: Super Sommer '21
-      icon: supersommer
-      text: Linde, Kreuzblütler, Himbeere, Wegerich, Mädesüß, Lavendel, Eiche, Süßgräser
-      message: Ausverkauft
-      color: orange
-    - title: Honig Trip '20
-      icon: honigtrip 
+    - title: "Frühlingsquaken '22"
+      icon: "frühlingsquaken"
+      message: "Jetzt auf Lager"
+      color: "green"
+
+    - title: "Super Sommer '21"
+      icon: "supersommer"
+      text: "Linde, Kreuzblütler, Himbeere, Wegerich, Mädesüß, Lavendel, Eiche, Süßgräser"
+      message: "Ausverkauft"
+      color: "orange"
+
+    - title: "Honig Trip '20"
+      icon: "honigtrip"
       text: Raps, Weide, Obst, Ahorn, Himbeere
       message: Ausverkauft
       color: orange
+
     - title: Sommer Bär '19
       icon: sommerbär
       text: Imker R. Seidl
       color: orange
       message: Ausverkauft
-    - title: Frühlings Bär '19
-      icon: frühlingsbär
-      text: Imker R. Seidl
-      message: Ausverkauft
-      color: orange
+    # - title: Frühlings Bär '19
+    #   icon: frühlingsbär
+    #   text: Imker R. Seidl
+    #   message: Ausverkauft
+    #   color: orange
+
     # - title: Super Sommer '19
     #   icon: supersommer
     #   text: Linde, Himbeere, Kreuzblütler, Obst, Klee, Natterkopf, Roßkastanie, Wein
     #   message: Ausverkauft
+
     - title: Fetter Frühling '19
       icon: fetterfrühling
       text: Raps, Himbeere, Roßkastanie, Hartriegel, Hornklee, Linde, Ahorn
@@ -135,7 +144,7 @@ params:
       job: Hacker
       img: h.jpg
     - name: Ditmar
-      quote: "Es gibt wieder Sommerhonig - flüssig und cremig gerührt - sowie Holz- und Kussbutter!"
+      quote: "Es gibt wieder Frühjahrshonig sowie Holz- und Kussbutter!"
       job: Hobbyimker
       img: d.jpg
   section5:
