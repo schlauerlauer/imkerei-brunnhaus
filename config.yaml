@@ -1,10 +1,10 @@
-baseURL: https://imkerei.brunnhaus.de/
-languageCode: en-us
-title: Imkerei Brunnhaus
-theme: hugo-fresh
+baseURL: "https://imkerei.brunnhaus.de/"
+languageCode: "en-us"
+title: "Imkerei Brunnhaus"
+theme: "hugo-fresh"
 disableKinds:
-- taxonomy
-- taxonomyTerm
+- "taxonomy"
+- "taxonomyTerm"
 markup:
   goldmark:
     renderer:
@@ -13,53 +13,65 @@ markup:
 params:
   openGraph: false
   # Used as meta data; describe your site to make Google Bots happy 
-  description: Leckere Honige und Bienenwachsprodukte von der Imkerei Brunnhaus im Isartal
+  description: "Leckere Honige und Bienenwachsprodukte von der Imkerei Brunnhaus im Isartal"
   navbarlogo:
-    image: logos/logo_wide.png
+    image: "logos/logo_wide.png"
     link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
-    title: Imkerei Brunnhaus - Honig aus dem Isartal
+    title: "Imkerei Brunnhaus - Honig aus dem Isartal"
     # subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
     subtitle: 
-    - line: "Gutes aus dem Isartal: es gibt nun den Frühjahrshonig 2022."
+    - line: "Gutes aus dem Isartal: es gibt Frühjahrs- und Sommerhonig 2022."
     - line: "Außerdem haben wir [Holzbutter](#products) und [Kussbutter](#products)!"
     image: favicon.png
     clientlogos:
-      - supersommer_deckel
-      - honigtrip_deckel
-      - sommerbär_deckel
-      - fetterfrühling_deckel
-      - frühlingsbär_deckel
+      - "supersommer_deckel"
+      - "honigtrip_deckel"
+      - "sommerbär_deckel"
+      - "fetterfrühling_deckel"
+      - "frühlingsbär_deckel"
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Honigsorten
+  - title: "Honigsorten"
     url: "/#sorten"
-  - title: Informationen
+  - title: "Informationen"
     url: "/#info"
-  - title: Produkte
+  - title: "Produkte"
     url: "/#products"
     sublinks:
-    - title: Holzbutter
+    - title: "Holzbutter"
       url: "/#holzbutter"
-    - title: Kussbutter
+    - title: "Kussbutter"
       url: "/#kussbutter"
-  - title: Eindrücke
+  - title: "Eindrücke"
     url: "/#impressions"
     sublinks:
-    - title: Bilder
+    - title: "Bilder"
       url: "/#impressions"
-    - title: Kommentare
+    - title: "Kommentare"
       url: "/#comments"
-  - title: Kontakt
+  - title: "Kontakt"
     url: "/#form"
     button: true
   section1:
-    title: Honigsorten
-    subtitle: Der leckere Honig aus dem Isartal mit den coolsten Etiketten
+    title: "Honigsorten"
+    subtitle: "Der leckere Honig aus dem Isartal mit den coolsten Etiketten"
     tiles:
+
+    - title: "Sommerbrummeln '22"
+      icon: "sommerbrummeln"
+      message: "Jetzt auf Lager"
+      color: "green"
+
+    - title: "Salzige Rosi '22"
+      icon: "rosi"
+      message: "Begrenzte Stückzahl"
+      color: "darkorange"
+      text: "Sommerhonig mit 4% Rosmarinsalz"
+
     - title: "Frühlingsquaken '22"
       icon: "frühlingsquaken"
       message: "Jetzt auf Lager"
@@ -73,15 +85,16 @@ params:
 
     - title: "Honig Trip '20"
       icon: "honigtrip"
-      text: Raps, Weide, Obst, Ahorn, Himbeere
-      message: Ausverkauft
-      color: orange
+      text: "Raps, Weide, Obst, Ahorn, Himbeere"
+      message: "Ausverkauft"
+      color: "orange"
 
-    - title: Sommer Bär '19
-      icon: sommerbär
-      text: Imker R. Seidl
-      color: orange
-      message: Ausverkauft
+    # - title: "Sommer Bär '19"
+    #   icon: "sommerbär"
+    #   text: "Imker R. Seidl"
+    #   color: "orange"
+    #   message: "Ausverkauft"
+
     # - title: Frühlings Bär '19
     #   icon: frühlingsbär
     #   text: Imker R. Seidl
@@ -93,11 +106,12 @@ params:
     #   text: Linde, Himbeere, Kreuzblütler, Obst, Klee, Natterkopf, Roßkastanie, Wein
     #   message: Ausverkauft
 
-    - title: Fetter Frühling '19
-      icon: fetterfrühling
-      text: Raps, Himbeere, Roßkastanie, Hartriegel, Hornklee, Linde, Ahorn
-      message: Ausverkauft
-      color: orange
+    # - title: "Fetter Frühling '19"
+    #   icon: "fetterfrühling"
+    #   text: "Raps, Himbeere, Roßkastanie, Hartriegel, Hornklee, Linde, Ahorn"
+    #   message: "Ausverkauft"
+    #   color: "orange"
+
   section2:
     title: Unser Isartal Honig
     subtitle: Imkerei Brunnhaus
@@ -119,34 +133,34 @@ params:
       - name: humid
   section3:
     items:
-    - title: Gute Holzbutter
+    - title: "Gute Holzbutter"
       subtitle: "Das Beste was Du Deinem Holz antun kannst (finden wir). Aus 100% Leinöl und Bienenwachs von unseren Bienen! Für Dein Schneidebrett, Tisch, Messergriff, Möbel, usw."
-      image: holzbutter.jpg
-      anchor: holzbutter
-    - title: Gute Kussbutter
+      image: "holzbutter.jpg"
+      anchor: "holzbutter"
+    - title: "Gute Kussbutter"
       subtitle: "Lippenbalsam aus Kokosöl, Bienenwachs und Honig mit Propolis und ein paar Tropfen Kamilleextrakt oder Teebaumöl in schönem Holzdöschen aus Mirabelle oder Kirschpflaume."
-      image: kussbutter.jpg
-      anchor: kussbutter
+      image: "kussbutter.jpg"
+      anchor: "kussbutter"
   section4:
-    title: Ein paar Eindrücke
-    subtitle: von unserer Imkerei
+    title: "Ein paar Eindrücke"
+    subtitle: "von unserer Imkerei"
     images:
-    - name: supersommer_nah.jpg
-    - name: kästen.jpg
-    - name: supersommer.jpg
+    - name: "sorten.jpg"
+    - name: "biene.jpg"
+    - name: "sommerbrummeln.jpg"
     clients:
-    - name: Wolf
+    - name: "Wolf"
       quote: "Samstag Morgen, graue Wolken – trübe Stimmung? Weg damit! Dr. Ditmar Ungers Super Sommer Isartal-Honig bringt neue Spannkraft und Lebensfreude. Quellfrisch und goldgelb aus der Imkerei Brunnhaus im lieblichen Isartal. Jetzt probieren. Für jeden Tag! Und der Super Sommer kommt zurück."
-      job: Grafikdesigner
-      img: sheep.jpg
-    - name: Christoph
+      job: "Grafikdesigner"
+      img: "sheep.jpg"
+    - name: "Christoph"
       quote: "Spitzen Honig aus einer wunderschönen Gegend vom Imker mit viel Einfallsreichtum, Geschick und gutem Händchen. Unser neuer Haushonig und Hofimker!"
-      job: Hacker
-      img: h.jpg
-    - name: Ditmar
+      job: "Hacker"
+      img: "h.jpg"
+    - name: "Ditmar"
       quote: "Es gibt wieder Frühjahrshonig sowie Holz- und Kussbutter!"
-      job: Hobbyimker
-      img: d.jpg
+      job: "Hobbyimker"
+      img: "d.jpg"
   section5:
     enabled: true
     lists:
