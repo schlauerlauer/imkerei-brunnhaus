@@ -24,8 +24,8 @@ params:
     title: "Imkerei Brunnhaus - Honig aus dem Isartal"
     # subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
     subtitle: 
-    - line: "Gutes aus dem Isartal: es gibt Frühjahrs- und Sommerhonig 2022."
-    - line: "Außerdem haben wir [Holzbutter](#products) und [Kussbutter](#products)!"
+    - line: "Gutes aus dem Isartal: Es gibt leider keinen Frühjahrs- und Sommerhonig 2022 mehr."
+    - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
     image: favicon.png
     clientlogos:
       - "supersommer_deckel"
@@ -159,7 +159,7 @@ params:
       job: "Hacker"
       img: "h.jpg"
     - name: "Ditmar"
-      quote: "der Honig 2022\" ist leider bereits ausverkauft, wir hoffen auf neue Ernte für August"
+      quote: "der Honig 2022 ist leider bereits ausverkauft, wir hoffen auf neue Ernte für August"
       job: "Hobbyimker"
       img: "d.jpg"
   section5:
