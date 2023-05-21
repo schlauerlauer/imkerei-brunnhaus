@@ -61,65 +61,66 @@ params:
     subtitle: "Der leckere Honig aus dem Isartal mit den coolsten Etiketten"
     tiles:
 
+  # colors
+  # darkorange - Begrenzte Stückzahl
+  # orange - Ausverkauft
+  # green - Jetzt auf Lager
+
     - title: "Sommerbrummeln '22"
       icon: "sommerbrummeln"
-      message: "Jetzt auf Lager"
-      color: "green"
+      message: "Ausverkauft"
+      color: "orange"
+
 
     - title: "Salzige Rosi '22"
       icon: "rosi"
-      message: "Begrenzte Stückzahl"
-      color: "darkorange"
+      message: "Ausverkauft"
+      color: "orange"
       text: "Sommerhonig mit 4% Rosmarinsalz"
 
     - title: "Frühlingsquaken '22"
       icon: "frühlingsquaken"
-      message: "Jetzt auf Lager"
-      color: "green"
-
-    - title: "Super Sommer '21"
-      icon: "supersommer"
-      text: "Linde, Kreuzblütler, Himbeere, Wegerich, Mädesüß, Lavendel, Eiche, Süßgräser"
       message: "Ausverkauft"
       color: "orange"
 
-    - title: "Honig Trip '20"
-      icon: "honigtrip"
-      text: "Raps, Weide, Obst, Ahorn, Himbeere"
-      message: "Ausverkauft"
-      color: "orange"
+    # - title: "Super Sommer '21"
+    #   icon: "supersommer"
+    #   text: "Linde, Kreuzblütler, Himbeere, Wegerich, Mädesüß, Lavendel, Eiche, Süßgräser"
+
+
+    # - title: "Honig Trip '20"
+    #   icon: "honigtrip"
+    #   text: "Raps, Weide, Obst, Ahorn, Himbeere"
+
 
     # - title: "Sommer Bär '19"
     #   icon: "sommerbär"
     #   text: "Imker R. Seidl"
-    #   color: "orange"
-    #   message: "Ausverkauft"
+
 
     # - title: Frühlings Bär '19
     #   icon: frühlingsbär
     #   text: Imker R. Seidl
-    #   message: Ausverkauft
-    #   color: orange
+
 
     # - title: Super Sommer '19
     #   icon: supersommer
     #   text: Linde, Himbeere, Kreuzblütler, Obst, Klee, Natterkopf, Roßkastanie, Wein
-    #   message: Ausverkauft
+
 
     # - title: "Fetter Frühling '19"
     #   icon: "fetterfrühling"
     #   text: "Raps, Himbeere, Roßkastanie, Hartriegel, Hornklee, Linde, Ahorn"
-    #   message: "Ausverkauft"
-    #   color: "orange"
+
 
   section2:
-    title: Unser Isartal Honig
-    subtitle: Imkerei Brunnhaus
+    title: "Unser Isartal Honig"
+    subtitle: "Imkerei Brunnhaus"
     features:
-    - title: Kontakt
+    - title: "Kontakt"
       text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
       icon: map-marker
-    - title: Direkt in der Natur
+    - title: "Direkt in der Natur"
       text:  'Direkt am 300 Jahre alten, ehemalig "Königlichen Hofbrunnhaus an der Isar" stehen meine Buckfast Bienenstöcke im FFH Gebiet Isarauen unterhalb vom Biergarten Waldwirtschaft.'
       icon: beehive-outline
     - title: Naturbelassen
@@ -158,21 +159,21 @@ params:
       job: "Hacker"
       img: "h.jpg"
     - name: "Ditmar"
-      quote: "Es gibt wieder Frühjahrshonig sowie Holz- und Kussbutter!"
+      quote: "der Honig 2022\" ist leider bereits ausverkauft, wir hoffen auf neue Ernte für August"
       job: "Hobbyimker"
       img: "d.jpg"
   section5:
     enabled: true
     lists:
-    - name: Honig Verfügbarkeit
+    - name: "Honig Verfügbarkeit"
       idHtml: 68a8e
       idDb: 68a8e4a9-1086-42de-ac0d-20c5065cd089
-    - name: Weitere Produkte
+    - name: "Weitere Produkte"
       idHtml: 9a7be
       idDb: 9a7bef05-f7c0-43c8-8fdd-27a56b8daa15
   footer:
-    logo: logo_small.png
-    socialmediatitle: Folge uns
+    logo: "logo_small.png"
+    socialmediatitle: "Folge uns"
     socialmedia:
     - link: https://google.de/search?q=Imkerei+Brunnhaus
       icon: google
@@ -180,17 +181,17 @@ params:
       icon: git
     quicklinks:
       column1:
-        title: Impressum
+        title: "Impressum"
         links:
-        - text: Imker - Dr. Ditmar Unger
-          link: https://brunnhaus.de
+        - text: "Imker - Dr. Ditmar Unger"
+          link: "https://brunnhaus.de"
         - text: "Mehr Bilder und auch Postkarten von meinem Sohn Julian"
-          link: https://julianlauer.de
+          link: "https://julianlauer.de"
         - text: "Webseite von meinem Sohn Janek"
-          link: https://github.com/schlauerlauer/
+          link: "https://github.com/schlauerlauer/"
         - text: "⠀"
-        - text: Bienenstock Metriken in Grafana
-          link: https://monitoring.brunnhaus.de/d/bienen/bienen
+        - text: "Bienenstock Metriken in Grafana"
+          link: "https://monitoring.brunnhaus.de/d/bienen/bienen"
         - text: "⠀"
         - text: "No cookies found 🤷‍♀️ have this one 🍪"
-          link: https://gitlab.com/brunnhaus/honig
+          link: "https://gitlab.com/brunnhaus/honig"
