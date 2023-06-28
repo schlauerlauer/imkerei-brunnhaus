@@ -15,8 +15,8 @@
     <div class="column is-10 is-offset-1">
       <div class="has-text-centered">
         {{- range $images }}
-        <figure class="image">
-          <img style="margin-bottom: 4rem;" loading="lazy" class="pushed-image is-rounded" src="{{ printf "/images/%s" .name | relURL }}">
+        <figure class="image" style="margin-bottom: 2rem;">
+          <img loading="lazy" class="is-rounded" src="{{ printf "/images/%s" .name | relURL }}">
         </figure>
         {{- end }}
       </div>

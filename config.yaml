@@ -1,14 +1,17 @@
 baseURL: "https://imkerei.brunnhaus.de/"
-languageCode: "en-us"
+languageCode: "de"
+defaultContentLanguage: "de"
 title: "Imkerei Brunnhaus"
 theme: "hugo-fresh"
 disableKinds:
 - "taxonomy"
 - "taxonomyTerm"
+- "term"
 markup:
   goldmark:
     renderer:
       unsafe: false
+disableHugoGeneratorInject: true
 
 params:
   openGraph: false
@@ -24,9 +27,9 @@ params:
     title: "Imkerei Brunnhaus - Honig aus dem Isartal"
     # subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
     subtitle: 
-    - line: "Gutes aus dem Isartal: Es gibt leider keinen Frühjahrs- und Sommerhonig 2022 mehr."
-    - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
-    image: favicon.png
+    - line: "Gutes aus dem Isartal: Ganz frisch abgefüllt, der tolle Frühjahrshonig 2023!"
+    # - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
+    image: "favicon.png"
     clientlogos:
       - "supersommer_deckel"
       - "honigtrip_deckel"
@@ -66,11 +69,15 @@ params:
   # orange - Ausverkauft
   # green - Jetzt auf Lager
 
+    - title: "Fetter Frühling '23"
+      icon: "fetterfrühling23"
+      color: "green"
+      message: "Frisch abgefüllt"
+
     - title: "Sommerbrummeln '22"
       icon: "sommerbrummeln"
       message: "Ausverkauft"
       color: "orange"
-
 
     - title: "Salzige Rosi '22"
       icon: "rosi"
@@ -83,55 +90,25 @@ params:
       message: "Ausverkauft"
       color: "orange"
 
-    # - title: "Super Sommer '21"
-    #   icon: "supersommer"
-    #   text: "Linde, Kreuzblütler, Himbeere, Wegerich, Mädesüß, Lavendel, Eiche, Süßgräser"
-
-
-    # - title: "Honig Trip '20"
-    #   icon: "honigtrip"
-    #   text: "Raps, Weide, Obst, Ahorn, Himbeere"
-
-
-    # - title: "Sommer Bär '19"
-    #   icon: "sommerbär"
-    #   text: "Imker R. Seidl"
-
-
-    # - title: Frühlings Bär '19
-    #   icon: frühlingsbär
-    #   text: Imker R. Seidl
-
-
-    # - title: Super Sommer '19
-    #   icon: supersommer
-    #   text: Linde, Himbeere, Kreuzblütler, Obst, Klee, Natterkopf, Roßkastanie, Wein
-
-
-    # - title: "Fetter Frühling '19"
-    #   icon: "fetterfrühling"
-    #   text: "Raps, Himbeere, Roßkastanie, Hartriegel, Hornklee, Linde, Ahorn"
-
-
   section2:
     title: "Unser Isartal Honig"
     subtitle: "Imkerei Brunnhaus"
     features:
     - title: "Kontakt"
       text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
-      icon: map-marker
+      icon: "map-marker"
     - title: "Direkt in der Natur"
-      text:  'Direkt am 300 Jahre alten, ehemalig "Königlichen Hofbrunnhaus an der Isar" stehen meine Buckfast Bienenstöcke im FFH Gebiet Isarauen unterhalb vom Biergarten Waldwirtschaft.'
-      icon: beehive-outline
-    - title: Naturbelassen
-      text: 'Ungespritzte und vielfältige Pollen- und Nektarquellen stehen so meinen Bienen über das Jahr zur Verfügung wie z. B. Weide, Märzenbecher, Weißdorn, Kirschpflaume, Kirsche, Apfel, Felsenbirne, Löwenzahn, Roßkastanie, Linde, Natterkopf, Alpenclematis, Wildrosen und viele Wildblumen am Ufer der Isar.'
-      icon: flower-outline
-    - title: Überwachung
-      icon: chart-areaspline
-      text: Unsere Bienenstöcke werden mit Hilfe modernster Technologie überwacht
+      text:  "Direkt am 300 Jahre alten, ehemalig \"Königlichen Hofbrunnhaus an der Isar\" stehen meine Buckfast Bienenstöcke im FFH Gebiet Isarauen unterhalb vom Biergarten Waldwirtschaft."
+      icon: "beehive-outline"
+    - title: "Naturbelassen"
+      text: "Ungespritzte und vielfältige Pollen- und Nektarquellen stehen so meinen Bienen über das Jahr zur Verfügung wie z. B. Weide, Märzenbecher, Weißdorn, Kirschpflaume, Kirsche, Apfel, Felsenbirne, Löwenzahn, Roßkastanie, Linde, Natterkopf, Alpenclematis, Wildrosen und viele Wildblumen am Ufer der Isar."
+      icon: "flower-outline"
+    - title: "Überwachung"
+      icon: "chart-areaspline"
+      text: "Unsere Bienenstöcke werden mit Hilfe modernster Technologie überwacht"
       image:
-      - name: delta
-      - name: humid
+      - name: "delta"
+      - name: "humid"
   section3:
     items:
     - title: "Gute Holzbutter"
@@ -147,38 +124,37 @@ params:
     subtitle: "von unserer Imkerei"
     images:
     - name: "sorten.jpg"
-    - name: "biene.jpg"
-    - name: "sommerbrummeln.jpg"
+    - name: "bee.jpg"
     clients:
     - name: "Wolf"
       quote: "Samstag Morgen, graue Wolken – trübe Stimmung? Weg damit! Dr. Ditmar Ungers Super Sommer Isartal-Honig bringt neue Spannkraft und Lebensfreude. Quellfrisch und goldgelb aus der Imkerei Brunnhaus im lieblichen Isartal. Jetzt probieren. Für jeden Tag! Und der Super Sommer kommt zurück."
       job: "Grafikdesigner"
       img: "sheep.jpg"
+    - name: "Ditmar"
+      quote: "Es war nicht viel aber wir haben jetzt den Frühjahrshonig 2023 abgefüllt: flüssig, etwas dunkler als die letzten Jahre und mit tollem Geschmack!"
+      job: "Hobbyimker"
+      img: "d.jpg"
     - name: "Christoph"
       quote: "Spitzen Honig aus einer wunderschönen Gegend vom Imker mit viel Einfallsreichtum, Geschick und gutem Händchen. Unser neuer Haushonig und Hofimker!"
       job: "Hacker"
       img: "h.jpg"
-    - name: "Ditmar"
-      quote: "der Honig 2022 ist leider bereits ausverkauft, wir hoffen auf neue Ernte für August"
-      job: "Hobbyimker"
-      img: "d.jpg"
   section5:
     enabled: true
     lists:
     - name: "Honig Verfügbarkeit"
-      idHtml: 68a8e
-      idDb: 68a8e4a9-1086-42de-ac0d-20c5065cd089
+      idHtml: "68a8e"
+      idDb: "68a8e4a9-1086-42de-ac0d-20c5065cd089"
     - name: "Weitere Produkte"
-      idHtml: 9a7be
-      idDb: 9a7bef05-f7c0-43c8-8fdd-27a56b8daa15
+      idHtml: "9a7be"
+      idDb: "9a7bef05-f7c0-43c8-8fdd-27a56b8daa15"
   footer:
     logo: "logo_small.png"
     socialmediatitle: "Folge uns"
     socialmedia:
-    - link: https://google.de/search?q=Imkerei+Brunnhaus
-      icon: google
-    - link: https://gitlab.com/brunnhaus
-      icon: git
+    - link: "https://google.de/search?q=Imkerei+Brunnhaus"
+      icon: "google"
+    - link: "https://gitlab.com/brunnhaus"
+      icon: "git"
     quicklinks:
       column1:
         title: "Impressum"
