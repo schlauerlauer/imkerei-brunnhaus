@@ -31,6 +31,7 @@ params:
     # - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
     image: "favicon.png"
     clientlogos:
+      - "fetterfrühling_23"
       - "supersommer_deckel"
       - "honigtrip_deckel"
       - "sommerbär_deckel"
@@ -140,6 +141,7 @@ params:
       img: "h.jpg"
   section5:
     enabled: true
+    image: "bee-2.jpg"
     lists:
     - name: "Honig Verfügbarkeit"
       idHtml: "68a8e"
