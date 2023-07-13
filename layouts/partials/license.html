@@ -1,23 +1,28 @@
 {{- if .license }}
 {{- with .license }}
 <p>
-{{ if .imageLink }}
-<a href="{{ .imageLink }}">Photo</a> by
+
+{{- if .imageLink }}
+<a href="{{ .imageLink }}">Photo</a>
 {{- else }}
-Photo by
+Photo
 {{- end }}
-{{- if .creator.link }}
-<a href="{{ .creator.link }}">{{ .creator.handle }}</a>
+
+{{- if and .creator.link .creator.handle }}
+by<a href="{{ .creator.link }}"> {{ .creator.handle }}</a>
 {{- else }}
-{{- .creator.handle }}
+    {{- if .creator.handle }}
+        by&nbsp;{{- .creator.handle }}
+    {{- end }}
 {{- end }}
+
 {{- if .name }}
 licensed under
 {{- $link := index $.licenses .name }}
 {{- if $link }}
 <a href="{{ $link }}">{{ .name }}</a>
 {{- else }}
-    {{- .name }}
+{{ .name }}
 {{- end }}
 {{- end }}
 <p>
