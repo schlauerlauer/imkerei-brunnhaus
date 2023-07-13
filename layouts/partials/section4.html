@@ -15,8 +15,9 @@
     <div class="column is-10 is-offset-1">
       <div class="has-text-centered">
         {{- range $images }}
-        <figure class="image" style="margin-bottom: 2rem;">
+        <figure class="image licensed-image" style="margin-bottom: 2rem;">
           <img loading="lazy" class="is-rounded" src="{{ printf "/images/%s" .name | relURL }}">
+          {{ partial "license.html" (dict "license" .license "licenses" $.Site.Params.Licenses) }}
         </figure>
         {{- end }}
       </div>

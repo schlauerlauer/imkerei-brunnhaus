@@ -14,6 +14,8 @@ markup:
 disableHugoGeneratorInject: true
 
 params:
+  licenses:
+    "CC BY-NC-SA": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
   openGraph: false
   # Used as meta data; describe your site to make Google Bots happy 
   description: "Leckere Honige und Bienenwachsprodukte von der Imkerei Brunnhaus im Isartal"
@@ -126,6 +128,12 @@ params:
     images:
     - name: "sorten.jpg"
     - name: "bee.jpg"
+      license:
+        name: "CC BY-NC-SA"
+        imageLink:
+        creator:
+          handle: "@lauer"
+          link: "https://pixelfed.de/lauer"
     clients:
     - name: "Wolf"
       quote: "Samstag Morgen, graue Wolken – trübe Stimmung? Weg damit! Dr. Ditmar Ungers Super Sommer Isartal-Honig bringt neue Spannkraft und Lebensfreude. Quellfrisch und goldgelb aus der Imkerei Brunnhaus im lieblichen Isartal. Jetzt probieren. Für jeden Tag! Und der Super Sommer kommt zurück."
@@ -142,6 +150,12 @@ params:
   section5:
     enabled: true
     image: "bee-2.jpg"
+    license:
+      name: "CC BY-NC-SA"
+      imageLink: "https://pixelfed.de/i/web/post/557541224920663387"
+      creator:
+        handle: "@lauer"
+        link: "https://pixelfed.de/lauer"
     lists:
     - name: "Honig Verfügbarkeit"
       idHtml: "68a8e"

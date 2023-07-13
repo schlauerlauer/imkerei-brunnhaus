@@ -1,0 +1,25 @@
+{{- if .license }}
+{{- with .license }}
+<p>
+{{ if .imageLink }}
+<a href="{{ .imageLink }}">Photo</a> by
+{{- else }}
+Photo by
+{{- end }}
+{{- if .creator.link }}
+<a href="{{ .creator.link }}">{{ .creator.handle }}</a>
+{{- else }}
+{{- .creator.handle }}
+{{- end }}
+{{- if .name }}
+licensed under
+{{- $link := index $.licenses .name }}
+{{- if $link }}
+<a href="{{ $link }}">{{ .name }}</a>
+{{- else }}
+    {{- .name }}
+{{- end }}
+{{- end }}
+<p>
+{{- end }}
+{{- end }}
