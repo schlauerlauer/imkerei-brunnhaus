@@ -30,10 +30,10 @@ params:
     # - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
     image: "favicon.png"
     clientlogos:
-      - "supersommer_deckel_23"
-      - "fetterfrühling_23"
-      - "supersommer_deckel"
-      - "frühlingsbär_deckel"
+      - "supersommer"
+      - "fetterfrühling"
+      - "sommerbrummeln"
+      - "salzigerosi"
   navbar:
   - title: "Honigsorten"
     url: "/#sorten"
