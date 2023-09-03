@@ -113,14 +113,14 @@ params:
       image: "holzbutter.jpg"
       anchor: "holzbutter"
     - title: "Gute Kussbutter"
-      subtitle: "Lippenbalsam aus Kokosöl, Bienenwachs und Honig mit Propolis und ein paar Tropfen Kamilleextrakt oder Teebaumöl in schönem Holzdöschen aus Mirabelle oder Kirschpflaume."
-      image: "kussbutter.jpg"
+      subtitle: "Lippenbalsam aus Sonnenblumen- und Kokosöl, Bienenwachs und Honig mit Propolis und ein paar Tropfen Rosen- oder Teebaumöl"
+      image: "kussbutter.jpg?v=2"
       anchor: "kussbutter"
   section4:
     title: "Ein paar Eindrücke"
     subtitle: "von unserer Imkerei"
     images:
-    - name: "sorten.jpg"
+    - name: "supersommer.jpg"
     - name: "bee.jpg"
       license:
         name: "CC BY-NC-SA"
