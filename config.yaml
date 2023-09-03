@@ -5,7 +5,6 @@ title: "Imkerei Brunnhaus"
 theme: "hugo-fresh"
 disableKinds:
 - "taxonomy"
-- "taxonomyTerm"
 - "term"
 markup:
   goldmark:
@@ -17,7 +16,6 @@ params:
   licenses:
     "CC BY-NC-SA": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
   openGraph: false
-  # Used as meta data; describe your site to make Google Bots happy 
   description: "Leckere Honige und Bienenwachsprodukte von der Imkerei Brunnhaus im Isartal"
   navbarlogo:
     image: "logos/logo_wide.png"
@@ -27,19 +25,15 @@ params:
     sizes: [400,600]
   hero:
     title: "Imkerei Brunnhaus - Honig aus dem Isartal"
-    # subtitle: "Verschiedene Honigsorten aus dem Isartal: Super Sommer, Fetter Frühling, Honig Trip, ..."
     subtitle: 
-    - line: "Gutes aus dem Isartal: Ganz frisch abgefüllt, der tolle Frühjahrshonig 2023!"
+    - line: "Gutes aus dem Isartal: Frühjahrs- und Sommerhonig 2023!"
     # - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
     image: "favicon.png"
     clientlogos:
+      - "supersommer_deckel_23"
       - "fetterfrühling_23"
       - "supersommer_deckel"
-      - "honigtrip_deckel"
-      - "sommerbär_deckel"
-      - "fetterfrühling_deckel"
       - "frühlingsbär_deckel"
-  # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: "Honigsorten"
     url: "/#sorten"
@@ -72,10 +66,15 @@ params:
   # orange - Ausverkauft
   # green - Jetzt auf Lager
 
+    - title: "Super Sommer '23"
+      icon: "supersommer23"
+      color: "green"
+      message: "Frisch abgefüllt"
+
     - title: "Fetter Frühling '23"
       icon: "fetterfrühling23"
       color: "green"
-      message: "Frisch abgefüllt"
+      message: "Verfügbar"
 
     - title: "Sommerbrummeln '22"
       icon: "sommerbrummeln"
@@ -87,11 +86,6 @@ params:
       message: "Ausverkauft"
       color: "orange"
       text: "Sommerhonig mit 4% Rosmarinsalz"
-
-    - title: "Frühlingsquaken '22"
-      icon: "frühlingsquaken"
-      message: "Ausverkauft"
-      color: "orange"
 
   section2:
     title: "Unser Isartal Honig"
@@ -140,7 +134,7 @@ params:
       job: "Grafikdesigner"
       img: "sheep.jpg"
     - name: "Ditmar"
-      quote: "Es war nicht viel aber wir haben jetzt den Frühjahrshonig 2023 abgefüllt: flüssig, etwas dunkler als die letzten Jahre und mit tollem Geschmack!"
+      quote: "Frühjahrs- und Sommerhonig jetzt zu haben!"
       job: "Hobbyimker"
       img: "d.jpg"
     - name: "Christoph"
