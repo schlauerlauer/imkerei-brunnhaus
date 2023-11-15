@@ -69,23 +69,23 @@ params:
     - title: "Super Sommer '23"
       icon: "supersommer23"
       color: "green"
-      message: "Frisch abgefüllt"
+      message: "Verfügbar"
 
     - title: "Fetter Frühling '23"
       icon: "fetterfrühling23"
       color: "green"
       message: "Verfügbar"
 
-    - title: "Sommerbrummeln '22"
-      icon: "sommerbrummeln"
-      message: "Ausverkauft"
-      color: "orange"
-
-    - title: "Salzige Rosi '22"
+    - title: "Salzige Rosi '23"
       icon: "rosi"
-      message: "Ausverkauft"
-      color: "orange"
+      message: "Verfügbar"
+      color: "green"
       text: "Sommerhonig mit 4% Rosmarinsalz"
+
+    # - title: "Sommerbrummeln '22"
+    #   icon: "sommerbrummeln"
+    #   message: "Ausverkauft"
+    #   color: "orange"
 
   section2:
     title: "Unser Isartal Honig"
