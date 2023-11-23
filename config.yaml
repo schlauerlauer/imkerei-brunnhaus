@@ -70,11 +70,18 @@ params:
       icon: "supersommer23"
       color: "green"
       message: "Verfügbar"
+      analysis:
+        - "45% Linde, 29% Raps, 13% Ahorn,"
+        - "Roßkastanie, Löwenzahn, Hartriegel, Mädesüß, Obst, Weißklee, Eiche, Wilder Wein, Süßgräser, Kiefer, Natternkopf, ..."
 
     - title: "Fetter Frühling '23"
       icon: "fetterfrühling23"
       color: "green"
       message: "Verfügbar"
+      analysis:
+        - "61% Raps, 17% Ahorn,"
+        - "12% Roßkastanie, 6% Weide,"
+        - "Hartriegel, Kiefer, Himbeere, Birke, Kreuzdorngewächse"
 
     - title: "Salzige Rosi '23"
       icon: "rosi"

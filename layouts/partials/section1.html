@@ -27,6 +27,13 @@
                 <p>{{ .text }}</p>
                 <p style="color:{{ .color }};">{{ .message }}</p>
             </div>
+            {{- if .analysis }}
+            <ul style="color: #64748b; font-size: small; text-align: left; padding-left: 1em;">
+              {{- range .analysis }}
+              <li>{{ . }}</li>
+              {{- end }}
+            </ul>
+            {{- end }}
           </div>
         </div>
         {{- end }}
