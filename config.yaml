@@ -4,8 +4,8 @@ defaultContentLanguage: "de"
 title: "Imkerei Brunnhaus"
 theme: "hugo-fresh"
 disableKinds:
-- "taxonomy"
-- "term"
+  - "taxonomy"
+  - "term"
 markup:
   goldmark:
     renderer:
@@ -22,11 +22,11 @@ params:
     link: /
   font:
     name: "Open Sans"
-    sizes: [400,600]
+    sizes: [400, 600]
   hero:
     title: "Imkerei Brunnhaus - Honig aus dem Isartal"
-    subtitle: 
-    - line: "Gutes aus dem Isartal: Frühjahrs- und Sommerhonig 2023!"
+    subtitle:
+      - line: "Gutes aus dem Isartal: Frühjahrs- und Sommerhonig!"
     # - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
     image: "favicon.png"
     clientlogos:
@@ -35,59 +35,58 @@ params:
       - "sommerbrummeln"
       - "salzigerosi"
   navbar:
-  - title: "Honigsorten"
-    url: "/#sorten"
-  - title: "Informationen"
-    url: "/#info"
-  - title: "Produkte"
-    url: "/#products"
-    sublinks:
-    - title: "Holzbutter"
-      url: "/#holzbutter"
-    - title: "Kussbutter"
-      url: "/#kussbutter"
-  - title: "Eindrücke"
-    url: "/#impressions"
-    sublinks:
-    - title: "Bilder"
+    - title: "Honigsorten"
+      url: "/#sorten"
+    - title: "Informationen"
+      url: "/#info"
+    - title: "Produkte"
+      url: "/#products"
+      sublinks:
+        - title: "Holzbutter"
+          url: "/#holzbutter"
+        - title: "Kussbutter"
+          url: "/#kussbutter"
+    - title: "Eindrücke"
       url: "/#impressions"
-    - title: "Kommentare"
-      url: "/#comments"
-  - title: "Kontakt"
-    url: "/#form"
-    button: true
+      sublinks:
+        - title: "Bilder"
+          url: "/#impressions"
+        - title: "Kommentare"
+          url: "/#comments"
+    - title: "Kontakt"
+      url: "/#form"
+      button: true
   section1:
     title: "Honigsorten"
     subtitle: "Der leckere Honig aus dem Isartal mit den coolsten Etiketten"
     tiles:
+      # colors
+      # darkorange - Begrenzte Stückzahl
+      # orange - Ausverkauft
+      # green - Jetzt auf Lager
 
-  # colors
-  # darkorange - Begrenzte Stückzahl
-  # orange - Ausverkauft
-  # green - Jetzt auf Lager
+      - title: "Fetter Frühling '24"
+        icon: "fetterfrühling23"
+        color: "green"
+        message: "Verfügbar"
+        # analysis:
+        #   - "61% Raps, 17% Ahorn,"
+        #   - "12% Roßkastanie, 6% Weide,"
+        #   - "Hartriegel, Kiefer, Himbeere, Birke, Kreuzdorngewächse"
 
-    - title: "Super Sommer '23"
-      icon: "supersommer23"
-      color: "green"
-      message: "Verfügbar"
-      analysis:
-        - "45% Linde, 29% Raps, 13% Ahorn,"
-        - "Roßkastanie, Löwenzahn, Hartriegel, Mädesüß, Obst, Weißklee, Eiche, Wilder Wein, Süßgräser, Kiefer, Natternkopf, ..."
+      - title: "Super Sommer '23"
+        icon: "supersommer23"
+        color: "green"
+        message: "Verfügbar"
+        analysis:
+          - "45% Linde, 29% Raps, 13% Ahorn,"
+          - "Roßkastanie, Löwenzahn, Hartriegel, Mädesüß, Obst, Weißklee, Eiche, Wilder Wein, Süßgräser, Kiefer, Natternkopf, ..."
 
-    - title: "Fetter Frühling '23"
-      icon: "fetterfrühling23"
-      color: "green"
-      message: "Verfügbar"
-      analysis:
-        - "61% Raps, 17% Ahorn,"
-        - "12% Roßkastanie, 6% Weide,"
-        - "Hartriegel, Kiefer, Himbeere, Birke, Kreuzdorngewächse"
-
-    - title: "Salzige Rosi '23"
-      icon: "rosi"
-      message: "Verfügbar"
-      color: "green"
-      text: "Sommerhonig mit 4% Rosmarinsalz"
+      - title: "Salzige Rosi '23"
+        icon: "rosi"
+        message: "Ausverkauft"
+        color: "orange"
+        text: "Sommerhonig mit 4% Rosmarinsalz"
 
     # - title: "Sommerbrummeln '22"
     #   icon: "sommerbrummeln"
@@ -98,56 +97,56 @@ params:
     title: "Unser Isartal Honig"
     subtitle: "Imkerei Brunnhaus"
     features:
-    - title: "Kontakt"
-      text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
-      icon: "map-marker"
-    - title: "Direkt in der Natur"
-      text:  "Direkt am 300 Jahre alten, ehemalig \"Königlichen Hofbrunnhaus an der Isar\" stehen meine Buckfast Bienenstöcke im FFH Gebiet Isarauen unterhalb vom Biergarten Waldwirtschaft."
-      icon: "beehive-outline"
-    - title: "Naturbelassen"
-      text: "Ungespritzte und vielfältige Pollen- und Nektarquellen stehen so meinen Bienen über das Jahr zur Verfügung wie z. B. Weide, Märzenbecher, Weißdorn, Kirschpflaume, Kirsche, Apfel, Felsenbirne, Löwenzahn, Roßkastanie, Linde, Natterkopf, Alpenclematis, Wildrosen und viele Wildblumen am Ufer der Isar."
-      icon: "flower-outline"
-    - title: "Überwachung"
-      icon: "chart-areaspline"
-      text: "Unsere Bienenstöcke werden mit Hilfe modernster Technologie überwacht"
-      image:
-      - name: "delta"
-      - name: "humid"
+      - title: "Kontakt"
+        text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
+        icon: "map-marker"
+      - title: "Direkt in der Natur"
+        text: 'Direkt am 300 Jahre alten, ehemalig "Königlichen Hofbrunnhaus an der Isar" stehen meine Buckfast Bienenstöcke im FFH Gebiet Isarauen unterhalb vom Biergarten Waldwirtschaft.'
+        icon: "beehive-outline"
+      - title: "Naturbelassen"
+        text: "Ungespritzte und vielfältige Pollen- und Nektarquellen stehen so meinen Bienen über das Jahr zur Verfügung wie z. B. Weide, Märzenbecher, Weißdorn, Kirschpflaume, Kirsche, Apfel, Felsenbirne, Löwenzahn, Roßkastanie, Linde, Natterkopf, Alpenclematis, Wildrosen und viele Wildblumen am Ufer der Isar."
+        icon: "flower-outline"
+      - title: "Überwachung"
+        icon: "chart-areaspline"
+        text: "Unsere Bienenstöcke werden mit Hilfe modernster Technologie überwacht"
+        image:
+          - name: "delta"
+          - name: "humid"
   section3:
     items:
-    - title: "Gute Holzbutter"
-      subtitle: "Das Beste was Du Deinem Holz antun kannst (finden wir). Aus 100% Leinöl und Bienenwachs von unseren Bienen! Für Dein Schneidebrett, Tisch, Messergriff, Möbel, usw."
-      image: "holzbutter.jpg"
-      anchor: "holzbutter"
-    - title: "Gute Kussbutter"
-      subtitle: "Lippenbalsam aus Sonnenblumen- und Kokosöl, Bienenwachs und Honig mit Propolis und ein paar Tropfen Rosen- oder Teebaumöl"
-      image: "kussbutter.jpg?v=2"
-      anchor: "kussbutter"
+      - title: "Gute Holzbutter"
+        subtitle: "Das Beste was Du Deinem Holz antun kannst (finden wir). Aus 100% Leinöl und Bienenwachs von unseren Bienen! Für Dein Schneidebrett, Tisch, Messergriff, Möbel, usw."
+        image: "holzbutter.jpg"
+        anchor: "holzbutter"
+      - title: "Gute Kussbutter"
+        subtitle: "Lippenbalsam aus Sonnenblumen- und Kokosöl, Bienenwachs und Honig mit Propolis und ein paar Tropfen Rosen- oder Teebaumöl"
+        image: "kussbutter.jpg?v=2"
+        anchor: "kussbutter"
   section4:
     title: "Ein paar Eindrücke"
     subtitle: "von unserer Imkerei"
     images:
-    - name: "supersommer.jpg"
-    - name: "bee.jpg"
-      license:
-        name: "CC BY-NC-SA"
-        imageLink:
-        creator:
-          handle: "@lauer"
-          link: "https://pixelfed.de/lauer"
+      - name: "supersommer.jpg"
+      - name: "bee.jpg"
+        license:
+          name: "CC BY-NC-SA"
+          imageLink:
+          creator:
+            handle: "@lauer"
+            link: "https://pixelfed.de/lauer"
     clients:
-    - name: "Wolf"
-      quote: "Samstag Morgen, graue Wolken – trübe Stimmung? Weg damit! Dr. Ditmar Ungers Super Sommer Isartal-Honig bringt neue Spannkraft und Lebensfreude. Quellfrisch und goldgelb aus der Imkerei Brunnhaus im lieblichen Isartal. Jetzt probieren. Für jeden Tag! Und der Super Sommer kommt zurück."
-      job: "Grafikdesigner"
-      img: "sheep.jpg"
-    - name: "Ditmar"
-      quote: "Frühjahrs- und Sommerhonig jetzt zu haben!"
-      job: "Hobbyimker"
-      img: "d.jpg"
-    - name: "Christoph"
-      quote: "Spitzen Honig aus einer wunderschönen Gegend vom Imker mit viel Einfallsreichtum, Geschick und gutem Händchen. Unser neuer Haushonig und Hofimker!"
-      job: "Hacker"
-      img: "h.jpg"
+      - name: "Wolf"
+        quote: "Samstag Morgen, graue Wolken – trübe Stimmung? Weg damit! Dr. Ditmar Ungers Super Sommer Isartal-Honig bringt neue Spannkraft und Lebensfreude. Quellfrisch und goldgelb aus der Imkerei Brunnhaus im lieblichen Isartal. Jetzt probieren. Für jeden Tag! Und der Super Sommer kommt zurück."
+        job: "Grafikdesigner"
+        img: "sheep.jpg"
+      - name: "Ditmar"
+        quote: "Frühjahrs- und Sommerhonig jetzt zu haben!"
+        job: "Hobbyimker"
+        img: "d.jpg"
+      - name: "Christoph"
+        quote: "Spitzen Honig aus einer wunderschönen Gegend vom Imker mit viel Einfallsreichtum, Geschick und gutem Händchen. Unser neuer Haushonig und Hofimker!"
+        job: "Hacker"
+        img: "h.jpg"
   section5:
     enabled: true
     image: "bee-2.jpg"
@@ -158,33 +157,33 @@ params:
         handle: "@lauer"
         link: "https://pixelfed.de/lauer"
     lists:
-    - name: "Honig Verfügbarkeit"
-      idHtml: "68a8e"
-      idDb: "68a8e4a9-1086-42de-ac0d-20c5065cd089"
-    - name: "Weitere Produkte"
-      idHtml: "9a7be"
-      idDb: "9a7bef05-f7c0-43c8-8fdd-27a56b8daa15"
+      - name: "Honig Verfügbarkeit"
+        idHtml: "68a8e"
+        idDb: "68a8e4a9-1086-42de-ac0d-20c5065cd089"
+      - name: "Weitere Produkte"
+        idHtml: "9a7be"
+        idDb: "9a7bef05-f7c0-43c8-8fdd-27a56b8daa15"
   footer:
     logo: "logo_small.png"
     socialmediatitle: "Folge uns"
     socialmedia:
-    - link: "https://google.de/search?q=Imkerei+Brunnhaus"
-      icon: "google"
-    - link: "https://gitlab.com/brunnhaus"
-      icon: "git"
+      - link: "https://google.de/search?q=Imkerei+Brunnhaus"
+        icon: "google"
+      - link: "https://gitlab.com/brunnhaus"
+        icon: "git"
     quicklinks:
       column1:
         title: "Impressum"
         links:
-        - text: "Imker - Dr. Ditmar Unger"
-          link: "https://brunnhaus.de"
-        - text: "Mehr Bilder und auch Postkarten von meinem Sohn Julian"
-          link: "https://julianlauer.de"
-        - text: "Webseite von meinem Sohn Janek"
-          link: "https://github.com/schlauerlauer/"
-        - text: "⠀"
-        - text: "Bienenstock Metriken in Grafana"
-          link: "https://monitoring.brunnhaus.de/d/bienen/bienen"
-        - text: "⠀"
-        - text: "No cookies found 🤷‍♀️ have this one 🍪"
-          link: "https://gitlab.com/brunnhaus/honig"
+          - text: "Imker - Dr. Ditmar Unger"
+            link: "https://brunnhaus.de"
+          - text: "Mehr Bilder und auch Postkarten von meinem Sohn Julian"
+            link: "https://julianlauer.de"
+          - text: "Webseite von meinem Sohn Janek"
+            link: "https://github.com/schlauerlauer/"
+          - text: "⠀"
+          - text: "Bienenstock Metriken in Grafana"
+            link: "https://monitoring.brunnhaus.de/d/bienen/bienen"
+          - text: "⠀"
+          - text: "No cookies found 🤷‍♀️ have this one 🍪"
+            link: "https://gitlab.com/brunnhaus/honig"
