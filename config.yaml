@@ -30,6 +30,7 @@ params:
     # - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
     image: "favicon.png"
     clientlogos:
+      - "supersommer24"
       - "supersommer"
       - "fetterfrühling"
       - "sommerbrummeln"
@@ -64,6 +65,11 @@ params:
       # darkorange - Begrenzte Stückzahl
       # orange - Ausverkauft
       # green - Jetzt auf Lager
+
+      - title: "Super Sommer '24"
+        icon: "supersommer24"
+        color: "green"
+        message: "Verfügbar"
 
       - title: "Fetter Frühling '24"
         icon: "fetterfrühling23"
