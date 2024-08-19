@@ -66,7 +66,7 @@ params:
       # orange - Ausverkauft
       # green - Jetzt auf Lager
 
-      - title: "Super Sommer '24"
+      - title: "Sommersummeln '24"
         icon: "supersommer24"
         color: "green"
         message: "Verfügbar"
