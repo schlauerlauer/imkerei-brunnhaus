@@ -118,16 +118,6 @@ params:
         image:
           - name: "delta"
           - name: "humid"
-  section3:
-    items:
-      - title: "Gute Holzbutter"
-        subtitle: "Das Beste was Du Deinem Holz antun kannst (finden wir). Aus 100% Leinöl und Bienenwachs von unseren Bienen! Für Dein Schneidebrett, Tisch, Messergriff, Möbel, usw."
-        image: "holzbutter.jpg"
-        anchor: "holzbutter"
-      - title: "Gute Kussbutter"
-        subtitle: "Lippenbalsam aus Sonnenblumen- und Kokosöl, Bienenwachs und Honig mit Propolis und ein paar Tropfen Rosen- oder Teebaumöl"
-        image: "kussbutter.jpg?v=2"
-        anchor: "kussbutter"
   section4:
     title: "Ein paar Eindrücke"
     subtitle: "von unserer Imkerei"
@@ -182,7 +172,6 @@ params:
         title: "Impressum"
         links:
           - text: "Imker - Dr. Ditmar Unger"
-            link: "https://brunnhaus.de"
           - text: "Mehr Bilder und auch Postkarten von meinem Sohn Julian"
             link: "https://julianlauer.de"
           - text: "Webseite von meinem Sohn Janek"

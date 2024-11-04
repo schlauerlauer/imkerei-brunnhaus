@@ -20,9 +20,13 @@
             <ul class="link-list">
               {{- range .links }}
               <li>
+                {{ if .link }}
                 <a href="{{ .link }}" target=”_blank” rel=”noopener noreferrer”>
                   {{ .text }}
                 </a>
+                {{ else }}
+                  <a>{{ .text }}</a>
+                {{ end }}
               </li>
               {{- end }}
             </ul>
