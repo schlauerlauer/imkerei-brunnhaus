@@ -30,6 +30,7 @@ params:
     # - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
     image: "favicon.png"
     clientlogos:
+      - "lindenhonig"
       - "supersommer24"
       - "supersommer"
       - "fetterfrühling"
@@ -65,6 +66,14 @@ params:
       # darkorange - Begrenzte Stückzahl
       # orange - Ausverkauft
       # green - Jetzt auf Lager
+
+      - title: "Lindenhonig '24"
+        icon: "lindenhonig"
+        color: "green"
+        message: "Verfügbar"
+        analysis:
+          - "Linde, Raps, Rose,"
+          - "Erle, Süßgräser, Mädesüß"
 
       - title: "Sommersummeln '24"
         icon: "supersommer24"
@@ -173,7 +182,7 @@ params:
         links:
           - text: "Imker - Dr. Ditmar Unger"
           - text: "Mehr Bilder und auch Postkarten von meinem Sohn Julian"
-            link: "https://julianlauer.de"
+            link: "https://literaturagentur-arteaga.de/julian-lauer/"
           - text: "Webseite von meinem Sohn Janek"
             link: "https://github.com/schlauerlauer/"
           - text: "⠀"
