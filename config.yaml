@@ -176,17 +176,3 @@ params:
         icon: "google"
       - link: "https://gitlab.com/brunnhaus"
         icon: "git"
-    quicklinks:
-      column1:
-        title: "Impressum"
-        links:
-          - text: "Imker - Dr. Ditmar Unger"
-          - text: "Mehr Bilder und auch Postkarten von meinem Sohn Julian"
-            link: "https://literaturagentur-arteaga.de/julian-lauer/"
-          - text: "Webseite von meinem Sohn Janek"
-            link: "https://github.com/schlauerlauer/"
-          - text: "⠀"
-          - text: "Bienenstock Metriken in Grafana"
-            link: "https://monitoring.brunnhaus.de/d/bienen/bienen"
-          - text: "⠀"
-          - text: "No cookies found 🤷‍♀️ have this one 🍪"

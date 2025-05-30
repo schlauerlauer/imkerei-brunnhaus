@@ -1,6 +1,5 @@
 {{- $footer      := .Site.Params.footer }}
 {{- $logo        := index $footer "logo" }}
-{{- $quickLinks  := index $footer "quicklinks" }}
 {{- $socialMedia := index $footer "socialmedia" }}
 {{- $socialMediaTitle    := index $footer "socialmediatitle" }}
 <footer class="footer footer-dark">
@@ -11,34 +10,32 @@
           <img loading="lazy" src="{{ printf "/images/logos/%s" $logo | relURL }}">
         </div>
       </div>
-      {{- range $quickLinks }}
-        <div class="column">
-          <div class="footer-column">
-            <div class="footer-header">
-                <h3>{{ .title }}</h3>
-            </div>
-            <ul class="link-list">
-              {{- range .links }}
-              <li>
-                {{ if .link }}
-                <a href="{{ .link }}" target=”_blank” rel=”noopener noreferrer”>
-                  {{ .text }}
-                </a>
-                {{ else }}
-                  <a>{{ .text }}</a>
-                {{ end }}
-              </li>
-              {{- end }}
-            </ul>
-          </div>
-        </div>
-      {{- end }}
-      <div class="column">
-        <div class="footer-column">
-          <div class="footer-header">
-            <h3>{{ $socialMediaTitle }}</h3>
-            <nav class="level is-mobile">
-              <div class="level-left">
+
+	<div class="column">
+		<div class="footer-column">
+			<div class="footer-header">
+				<h3>Impressum</h3>
+			</div>
+			<h4 class="footer-bold">Die folgenden Angaben entsprechen den Vorgaben von § 5 TMG</h4>
+			<div>
+				<p>Dr. Ditmar Unger</p>
+				<p>An der Isar 2</p>
+				<p>82049 Pullach</p>
+			</div>
+			<h4 class="footer-bold">Kontaktdaten</h4>
+			<div>
+				<p>Telefon: +498974948844</p>
+				<p>E-Mail-Adresse: imkerei@brunnhaus.de</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="footer-column">
+			<div class="footer-header">
+				<h3>{{ $socialMediaTitle }}</h3>
+				<nav class="level is-mobile">
+					<div class="level-left">
                 {{- range $socialMedia }}
                 <a class="level-item" href="{{ .link }}">
                   <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
