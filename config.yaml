@@ -83,7 +83,7 @@ params:
 
       - title: "Fetter Frühling '24"
         icon: "fetterfrühling23"
-        color: "green"
+        color: "orange"
         message: "Ausverkauft"
         # analysis:
         #   - "61% Raps, 17% Ahorn,"
