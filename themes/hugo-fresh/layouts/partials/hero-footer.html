@@ -1,3 +1,4 @@
+<!--
 {{- $hero        := .Site.Params.hero }}
 {{- $clientLogos := index $hero "clientlogos" }}
 <div class="hero-foot mb-20">
@@ -9,6 +10,38 @@
           <a>
             <img class="partner-logo" src="{{ printf "/images/logos/clients/%s.svg" . | relURL }}">
           </a>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+  </div>
+</div>
+-->
+
+{{- $hero        := .Site.Params.hero }}
+{{- $clientLogos := index $hero "clientlogos" }}
+<div class="hero-foot mb-20">
+  <div class="container">
+    <div class="tabs is-centered">
+      <ul>
+        {{- range $clientLogos }}
+        <li>
+          <!-- Der Klick-Link zum Deckeletikett-Modal -->
+          <a href="#modal-deckel-{{ . }}" style="cursor: pointer;">
+            <!-- Getarnte PNGs/JPGs funktionieren hier perfekt, da das Template nun .jpg anhängt -->
+            <img class="partner-logo" src="{{ printf "/images/logos/clients/%s.jpg" . | relURL }}" alt="Deckeletikett">
+          </a>
+
+          <!-- Das dazugehörige Pop-up (Bulma-Struktur) für das Deckeletikett -->
+          <div id="modal-deckel-{{ . }}" class="modal">
+            <a href="#" class="modal-background" aria-label="schließen"></a>
+            <div class="modal-content has-text-centered">
+              <p class="image">
+                <img src="{{ printf "/images/logos/clients/%s.jpg" . | relURL }}" alt="Deckeletikett Groß" style="max-height: 70vh; width: auto; margin: 0 auto; background: white; padding: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); border-radius: 50%;">
+              </p>
+            </div>
+            <a href="#" class="modal-close is-large" aria-label="schließen"></a>
+          </div>
         </li>
         {{- end }}
       </ul>
