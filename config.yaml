@@ -31,10 +31,11 @@ params:
     # - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
     image: "favicon.png"
     clientlogos:
+      - "sommerschmatz25"
+      - "fetterfrühling"
       - "lindenhonig"
       - "supersommer24"
-      - "fetterfrühling"
-      - "supersommer"
+#      - "supersommer"
 #      - "sommerbrummeln"
       - "salzigerosi"
   navbar:
@@ -71,6 +72,15 @@ params:
       # orange - Ausverkauft
       # green - Jetzt auf Lager
 
+      - title: "Fetter Frühling '25"
+        icon: "fetterfrühling23"
+        color: "orange"
+        message: "Ausverkauft"
+        # analysis:
+        #   - "61% Raps, 17% Ahorn,"
+        #   - "12% Roßkastanie, 6% Weide,"
+        #   - "Hartriegel, Kiefer, Himbeere, Birke, Kreuzdorngewächse"
+
       - title: "Lindenhonig '24"
         icon: "lindenhonig"
         color: "orange"
@@ -84,14 +94,6 @@ params:
         color: "orange"
         message: "Ausverkauft"
 
-      - title: "Fetter Frühling '24"
-        icon: "fetterfrühling23"
-        color: "orange"
-        message: "Ausverkauft"
-        # analysis:
-        #   - "61% Raps, 17% Ahorn,"
-        #   - "12% Roßkastanie, 6% Weide,"
-        #   - "Hartriegel, Kiefer, Himbeere, Birke, Kreuzdorngewächse"
 
       - title: "Super Sommer '23"
         icon: "supersommer23"
@@ -101,7 +103,7 @@ params:
           - "45% Linde, 29% Raps, 13% Ahorn,"
           - "Roßkastanie, Löwenzahn, Hartriegel, Mädesüß, Obst, Weißklee, Eiche, Wilder Wein, Süßgräser, Kiefer, Natternkopf, ..."
 
-      - title: "Salzige Rosi '23"
+      - title: "Salzige Rosi"
         icon: "rosi"
         message: "Ausverkauft"
         color: "orange"
