@@ -19,10 +19,13 @@
               <h4>{{ .title }}</h4>
             </div>
             <div class="card-icon">
-                <a>
-                  <img src="{{ printf "/images/sorten/%s.jpg" .icon | relURL }}">
+#                <a>
+#                  <img src="{{ printf "/images/sorten/%s.jpg" .icon | relURL }}">
+#                </a>
+                <a href="{{ printf "/images/sorten/%s.jpg" .icon | relURL }}" target="_blank">
+                  <img src="{{ printf "/images/sorten/%s.jpg" .icon | relURL }}" alt="{{ .title }}">
                 </a>
-            </div>
+          </div>
             <div class="card-text">
                 <p>{{ .text }}</p>
                 <p style="color:{{ .color }};">{{ .message }}</p>
