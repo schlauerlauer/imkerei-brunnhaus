@@ -61,6 +61,7 @@ params:
       button: true
   section1:
     title: "Honigsorten"
+    id: "sorten"
     subtitle: "Der leckere Honig aus dem Isartal mit den coolsten Etiketten"
     tiles:
       # colors
@@ -112,6 +113,7 @@ params:
   section2:
     title: "Unser Isartal Honig"
     subtitle: "Imkerei Brunnhaus"
+    id: "info"    
     features:
       - title: "Kontakt"
         text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
