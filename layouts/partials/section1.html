@@ -1,3 +1,15 @@
+<!-- Der unzerstörbare CSS-Zoom-Fix direkt in der Sektion verankert -->
+<style>
+  .modal:target {
+      display: flex !important;
+  }
+  .modal-content img {
+      background: white;
+      padding: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+</style>
+
 {{- $section1 := .Site.Params.section1 }}
 {{- $title    := index $section1 "title" }}
 {{- $subtitle := index $section1 "subtitle" }}
