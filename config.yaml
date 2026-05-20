@@ -13,7 +13,8 @@ markup:
 disableHugoGeneratorInject: true
 
 params:
-  custom_css: ["css/custom.css"]
+  customCSS: 
+    - "css/custom.css"
   licenses:
     "CC BY-NC-SA": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
   openGraph: false
