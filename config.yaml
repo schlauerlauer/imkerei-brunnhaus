@@ -33,9 +33,9 @@ params:
     clientlogos:
       - "lindenhonig"
       - "supersommer24"
-      - "supersommer"
       - "fetterfrühling"
-      - "sommerbrummeln"
+      - "supersommer"
+#      - "sommerbrummeln"
       - "salzigerosi"
   navbar:
     - title: "Honigsorten"
