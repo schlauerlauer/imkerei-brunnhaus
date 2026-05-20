@@ -25,23 +25,26 @@
                 </a>
               </div>
 -->
+
             <div class="card-icon">
-                <!-- Verweist im selben Fenster auf das Pop-up dieser Sorte -->
-                <a href="#modal-{{ .icon }}">
+                <!-- Die Klasse js-modal-trigger weckt das Hintergrund-Skript auf -->
+                <a class="js-modal-trigger" data-target="modal-{{ .icon }}" style="cursor: pointer;">
                   <img src="{{ printf "/images/sorten/%s.jpg" .icon | relURL }}" alt="{{ .title }}">
                 </a>
             </div>
 
             <!-- Das dazugehörige Pop-up (Bulma Modal) -->
             <div id="modal-{{ .icon }}" class="modal">
-              <a href="#" class="modal-background" aria-label="schließen"></a>
+              <div class="modal-background"></div>
               <div class="modal-content has-text-centered">
                 <p class="image">
                   <img src="{{ printf "/images/sorten/%s.jpg" .icon | relURL }}" alt="{{ .title }}" style="max-height: 80vh; width: auto; margin: 0 auto; border-radius: 8px;">
                 </p>
               </div>
-              <a href="#" class="modal-close is-large" aria-label="schließen"></a>
+              <button class="modal-close is-large" aria-label="close"></button>
             </div>
+
+
 
 <div class="card-text">
                 <p>{{ .text }}</p>
