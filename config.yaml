@@ -109,8 +109,8 @@ params:
 
       - title: "Salzige Rosi"
         icon: "rosi"
-        message: "Ausverkauft"
         color: "orange"
+        message: "Ausverkauft"
         text: "Sommerhonig mit 4% Rosmarinsalz"
 
     # - title: "Sommerbrummeln '22"
