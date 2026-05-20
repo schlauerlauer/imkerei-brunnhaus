@@ -72,6 +72,11 @@ params:
       # orange - Ausverkauft
       # green - Jetzt auf Lager
 
+      - title: "Sommerschmatz '25"
+        icon: "sommerschmatz25"
+        color: "orange"
+        message: "Ausverkauft"
+
       - title: "Fetter Frühling '25"
         icon: "fetterfrühling23"
         color: "orange"
