@@ -45,10 +45,12 @@ params:
     - title: "Produkte"
       url: "/#products"
       sublinks:
-        - title: "Holzbutter"
-          url: "/#holzbutter"
-        - title: "Kussbutter"
-          url: "/#kussbutter"
+        - title: "Honig"
+          url: "/#sorten"
+#        - title: "Holzbutter"
+#          url: "/#holzbutter"
+#        - title: "Kussbutter"
+#          url: "/#kussbutter"
     - title: "Eindrücke"
       url: "/#impressions"
       sublinks:
@@ -133,6 +135,7 @@ params:
   section4:
     title: "Ein paar Eindrücke"
     subtitle: "von unserer Imkerei"
+    id: "impressions"
     images:
       - name: "supersommer.jpg"
       - name: "bee.jpg"
@@ -143,6 +146,7 @@ params:
             handle: "@lauer"
             link: "https://pixelfed.de/lauer"
     clients:
+    id: "comments"
       - name: "Wolf"
         quote: "Samstag Morgen, graue Wolken – trübe Stimmung? Weg damit! Dr. Ditmar Ungers Super Sommer Isartal-Honig bringt neue Spannkraft und Lebensfreude. Quellfrisch und goldgelb aus der Imkerei Brunnhaus im lieblichen Isartal. Jetzt probieren. Für jeden Tag! Und der Super Sommer kommt zurück."
         job: "Grafikdesigner"
