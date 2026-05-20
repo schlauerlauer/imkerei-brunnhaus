@@ -42,11 +42,11 @@ params:
       url: "/#sorten"
     - title: "Informationen"
       url: "/#info"
-    - title: "Produkte"
-      url: "/#products"
-      sublinks:
-        - title: "Honig"
-          url: "/#sorten"
+#    - title: "Produkte"
+#      url: "/#products"
+#      sublinks:
+#        - title: "Honig"
+#          url: "/#sorten"
 #        - title: "Holzbutter"
 #          url: "/#holzbutter"
 #        - title: "Kussbutter"
@@ -61,9 +61,9 @@ params:
     - title: "Kontakt"
       url: "/#form"
       button: true
+
   section1:
     title: "Honigsorten"
-    id: "sorten"
     subtitle: "Der leckere Honig aus dem Isartal mit den coolsten Etiketten"
     tiles:
       # colors
@@ -115,7 +115,6 @@ params:
   section2:
     title: "Unser Isartal Honig"
     subtitle: "Imkerei Brunnhaus"
-    id: "info"    
     features:
       - title: "Kontakt"
         text: "Imker Dr. Ditmar Unger, [An der Isar 2, 82049 Pullach im Isartal.](https://google.de/search?q=Imkerei+Brunnhaus) Für Fragen und Anregungen bitte das Formular am Ende der Webseite nutzen."
@@ -132,10 +131,10 @@ params:
         image:
           - name: "delta"
           - name: "humid"
+
   section4:
     title: "Ein paar Eindrücke"
     subtitle: "von unserer Imkerei"
-    id: "impressions"
     images:
       - name: "supersommer.jpg"
       - name: "bee.jpg"
@@ -158,6 +157,7 @@ params:
         quote: "Spitzen Honig aus einer wunderschönen Gegend vom Imker mit viel Einfallsreichtum, Geschick und gutem Händchen. Unser neuer Haushonig und Hofimker!"
         job: "Hacker"
         img: "h.jpg"
+
   section5:
     enabled: true
     image: "bee-2.jpg"
