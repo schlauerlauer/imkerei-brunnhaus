@@ -1,0 +1,4 @@
+/* Reaktiviert den Bulma-Modal-Zoom über die URL-Sprungmarke */
+.modal:target {
+    display: flex !important;
+}
