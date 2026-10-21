@@ -88,18 +88,18 @@ params:
         #   - "12% Roßkastanie, 6% Weide,"
         #   - "Hartriegel, Kiefer, Himbeere, Birke, Kreuzdorngewächse"
 
-      - title: "Lindenhonig '24"
-        icon: "lindenhonig"
-        color: "orange"
-        message: "Ausverkauft"
-        analysis:
-          - "Linde, Raps, Rose,"
-          - "Erle, Süßgräser, Mädesüß"
-
-      - title: "Sommersummeln '24"
-        icon: "supersommer24"
-        color: "orange"
-        message: "Ausverkauft"
+#      - title: "Lindenhonig '24"
+#        icon: "lindenhonig"
+#        color: "orange"
+#        message: "Ausverkauft"
+#        analysis:
+#          - "Linde, Raps, Rose,"
+#          - "Erle, Süßgräser, Mädesüß"
+#
+#      - title: "Sommersummeln '24"
+#        icon: "supersommer24"
+#        color: "orange"
+#        message: "Ausverkauft"
 
 #      - title: "Super Sommer '23"
 #        icon: "supersommer23"
