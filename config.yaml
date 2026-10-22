@@ -28,15 +28,16 @@ params:
   hero:
     title: "Imkerei Brunnhaus - Honig aus dem Isartal"
     subtitle:
-      - line: "Gutes aus dem Isartal: Der Frühjahrshonig 2026 ist inzwischen geschleudert aber noch nicht abgefüllt."
-      - line: "Es dauert nicht mehr lange und wer in der Mailingsliste (unten) eingetragen ist bekommt rechtzeitig Bescheid!"
+      - line: "Gutes aus dem Isartal: Der Sommerhonig 2026 ist verfügbar!"
+      - line: "Wer sich in der Mailingsliste unten einträgt bekommt immer rechtzeitig Bescheid!"
     # - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
     image: "favicon.png"
     clientlogos:
+      - "sommerfest26"
+      - "fetterfrühling26"
       - "sommerschmatz25"
-      - "fetterfrühling"
-      - "lindenhonig"
-      - "supersommer24"
+#      - "lindenhonig"
+#      - "supersommer24"
 #      - "supersommer"
 #      - "sommerbrummeln"
       - "salzigerosi"
