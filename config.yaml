@@ -74,19 +74,24 @@ params:
       # orange - Ausverkauft
       # green - Jetzt auf Lager
 
-      - title: "Sommerschmatz '25"
-        icon: "sommerschmatz25"
-        color: "orange"
-        message: "Ausverkauft"
+      - title: "Sommerfest '26"
+        icon: "sommerfest26"
+        color: "green"
+        message: "Verfügbar"
 
-      - title: "Fetter Frühling '25"
-        icon: "fetterfrühling23"
+      - title: "Fetter Frühling '26"
+        icon: "fetterfrühling26"
         color: "orange"
         message: "Ausverkauft"
         # analysis:
         #   - "61% Raps, 17% Ahorn,"
         #   - "12% Roßkastanie, 6% Weide,"
         #   - "Hartriegel, Kiefer, Himbeere, Birke, Kreuzdorngewächse"
+
+      - title: "Sommerschmatz '25"
+        icon: "sommerschmatz25"
+        color: "orange"
+        message: "Ausverkauft"
 
 #      - title: "Lindenhonig '24"
 #        icon: "lindenhonig"
