@@ -165,7 +165,7 @@ params:
         job: "Grafikdesigner"
         img: "sheep.jpg"
       - name: "Ditmar"
-        quote: "Der Frühlingshonig aus 2025 ist inzwischen leider ausverkauft aber der Sommerhonig 2026 ist noch verfügbar!"
+        quote: "Der Frühlingshonig 2026 ist inzwischen leider ausverkauft aber der Sommerhonig 2026 ist noch verfügbar!"
         job: "Hobbyimker"
         img: "d.jpg"
       - name: "Christoph"
