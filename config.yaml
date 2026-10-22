@@ -33,7 +33,10 @@ params:
     # - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
     image: "favicon.png"
     clientlogos:
-      - "sommerfest26.png"
+      # alle logos als jpg in 256x256 mit weißem Hintergrund 
+      # aus png so erstellt:
+      # magick input.png -background white -alpha remove output.jpg
+      - "sommerfest26"
       - "fetterfrühling"
       - "sommerschmatz25"
 #      - "lindenhonig"
