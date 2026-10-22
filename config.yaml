@@ -34,7 +34,7 @@ params:
     image: "favicon.png"
     clientlogos:
       - "sommerfest26"
-      - "fetterfrühling26"
+      - "fetterfrühling"
       - "sommerschmatz25"
 #      - "lindenhonig"
 #      - "supersommer24"
