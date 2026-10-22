@@ -33,7 +33,7 @@ params:
     # - line: "Aber wir haben noch [Holzbutter](#products) und [Kussbutter](#products)!"
     image: "favicon.png"
     clientlogos:
-      - "sommerfest26"
+      - "sommerfest26.png"
       - "fetterfrühling"
       - "sommerschmatz25"
 #      - "lindenhonig"
